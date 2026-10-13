@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Raw PhysioNet data (re-download with `python -m src.download`)
+data/raw/*
+!data/raw/.gitkeep
+
+# Large processed feature store (regenerate with `python -m src.preprocess`).
+# Small artefacts (models, reports, figures, demo sample, predictions) ARE committed so the
+# API and dashboard work from a fresh clone.
+outputs/parquet/beats_ds1.parquet
+outputs/parquet/beats_ds2.parquet
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/

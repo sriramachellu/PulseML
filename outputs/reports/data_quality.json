@@ -1,0 +1,229 @@
+{
+  "created_at": "2026-10-13T03:41:58+00:00",
+  "total_records": 44,
+  "total_beats": 100630,
+  "checks": {
+    "DS1": {
+      "n_beats": 50969,
+      "n_records": 22,
+      "empty": false,
+      "missing": {
+        "record_id": 0,
+        "beat_idx": 0,
+        "r_peak_sample": 0,
+        "symbol": 0,
+        "label": 0,
+        "rr_prev": 0,
+        "rr_next": 0,
+        "rr_ratio": 0,
+        "local_hr": 0,
+        "rr_local_avg": 0,
+        "rr_prev_norm": 0,
+        "rr_next_norm": 0,
+        "wf_mean": 0,
+        "wf_std": 0,
+        "wf_min": 0,
+        "wf_max": 0,
+        "wf_skew": 0,
+        "wf_kurtosis": 0,
+        "qrs_proxy": 0,
+        "pre_energy": 0,
+        "post_energy": 0,
+        "waveform": 0
+      },
+      "amplitude": {
+        "limit_mv": 5.0,
+        "n_flagged": 0,
+        "flagged_records": {}
+      },
+      "rr_outliers": {
+        "max_ms": 3000.0,
+        "n_flagged": 16,
+        "max_rr_ms": 100022.22222222222,
+        "flagged_records": {
+          "207": 11,
+          "201": 4,
+          "208": 1
+        }
+      },
+      "flat": {
+        "n_flat": 0,
+        "flat_records": {}
+      },
+      "waveform_length": {
+        "expected": 280,
+        "n_wrong_length": 0
+      },
+      "duplicates": {
+        "duplicate_keys": 0,
+        "duplicate_waveforms": 0
+      },
+      "labels": {
+        "n_invalid_labels": 0
+      },
+      "passed": true
+    },
+    "DS2": {
+      "n_beats": 49661,
+      "n_records": 22,
+      "empty": false,
+      "missing": {
+        "record_id": 0,
+        "beat_idx": 0,
+        "r_peak_sample": 0,
+        "symbol": 0,
+        "label": 0,
+        "rr_prev": 0,
+        "rr_next": 0,
+        "rr_ratio": 0,
+        "local_hr": 0,
+        "rr_local_avg": 0,
+        "rr_prev_norm": 0,
+        "rr_next_norm": 0,
+        "wf_mean": 0,
+        "wf_std": 0,
+        "wf_min": 0,
+        "wf_max": 0,
+        "wf_skew": 0,
+        "wf_kurtosis": 0,
+        "qrs_proxy": 0,
+        "pre_energy": 0,
+        "post_energy": 0,
+        "waveform": 0
+      },
+      "amplitude": {
+        "limit_mv": 5.0,
+        "n_flagged": 0,
+        "flagged_records": {}
+      },
+      "rr_outliers": {
+        "max_ms": 3000.0,
+        "n_flagged": 64,
+        "max_rr_ms": 5872.222222222223,
+        "flagged_records": {
+          "232": 62,
+          "219": 2
+        }
+      },
+      "flat": {
+        "n_flat": 0,
+        "flat_records": {}
+      },
+      "waveform_length": {
+        "expected": 280,
+        "n_wrong_length": 0
+      },
+      "duplicates": {
+        "duplicate_keys": 0,
+        "duplicate_waveforms": 0
+      },
+      "labels": {
+        "n_invalid_labels": 0
+      },
+      "passed": true
+    },
+    "patient_leakage": {
+      "overlapping_records": [],
+      "passed": true
+    }
+  },
+  "class_distribution": [
+    {
+      "split": "DS1",
+      "aami": "F",
+      "n": 414,
+      "pct": 0.81
+    },
+    {
+      "split": "DS1",
+      "aami": "N",
+      "n": 45824,
+      "pct": 89.91
+    },
+    {
+      "split": "DS1",
+      "aami": "S",
+      "n": 943,
+      "pct": 1.85
+    },
+    {
+      "split": "DS1",
+      "aami": "V",
+      "n": 3788,
+      "pct": 7.43
+    },
+    {
+      "split": "DS2",
+      "aami": "F",
+      "n": 388,
+      "pct": 0.78
+    },
+    {
+      "split": "DS2",
+      "aami": "N",
+      "n": 44218,
+      "pct": 89.04
+    },
+    {
+      "split": "DS2",
+      "aami": "S",
+      "n": 1836,
+      "pct": 3.7
+    },
+    {
+      "split": "DS2",
+      "aami": "V",
+      "n": 3219,
+      "pct": 6.48
+    }
+  ],
+  "lineage": [
+    {
+      "split": "DS1",
+      "total_annotations": 52536,
+      "non_beat_annotations": 1515,
+      "beat_annotations": 51021,
+      "beats_extracted": 50969,
+      "excluded_class": 8,
+      "excluded_no_rr": 44,
+      "excluded_boundary": 0
+    },
+    {
+      "split": "DS2",
+      "total_annotations": 51188,
+      "non_beat_annotations": 1476,
+      "beat_annotations": 49712,
+      "beats_extracted": 49661,
+      "excluded_class": 7,
+      "excluded_no_rr": 44,
+      "excluded_boundary": 0
+    }
+  ],
+  "hr_by_class": [
+    {
+      "aami": "F",
+      "mean_hr": 104.3,
+      "median_hr": 106.4,
+      "sd_hr": 10.1
+    },
+    {
+      "aami": "N",
+      "mean_hr": 78.4,
+      "median_hr": 78.0,
+      "sd_hr": 19.3
+    },
+    {
+      "aami": "S",
+      "mean_hr": 103.5,
+      "median_hr": 88.5,
+      "sd_hr": 27.3
+    },
+    {
+      "aami": "V",
+      "mean_hr": 120.0,
+      "median_hr": 117.4,
+      "sd_hr": 25.4
+    }
+  ],
+  "passed": true
+}

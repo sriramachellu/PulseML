@@ -1,0 +1,184 @@
+2026-10-08 14:01:11,877 | INFO    | train | [oof0/s42] device=cuda augment=True seed=42 | train records (17): 101, 106, 108, 109, 112, 115, 116, 119, 122, 124, 201, 203, 205, 209, 220, 223, 230
+2026-10-08 14:01:11,877 | INFO    | train | [oof0/s42] val records (0): 
+2026-10-08 14:01:11,877 | INFO    | train | [oof0/s42] train beats=38646 [35522, 724, 2363, 37] | val beats=0 []
+2026-10-08 14:01:11,877 | INFO    | train | [oof0/s42] class weights (N,S,V,F) = [0.2720000147819519, 13.345000267028809, 4.089000225067139, 261.12200927734375]
+2026-10-08 14:01:15,528 | INFO    | train | [oof0/s42] epoch 01 | train loss 0.8351 acc 0.8280 F1 0.4397 (refit on all DS1)
+2026-10-08 14:01:16,695 | INFO    | train | [oof0/s42] epoch 02 | train loss 0.5069 acc 0.9192 F1 0.5678 (refit on all DS1)
+2026-10-08 14:01:17,925 | INFO    | train | [oof0/s42] epoch 03 | train loss 0.4508 acc 0.9049 F1 0.5688 (refit on all DS1)
+2026-10-08 14:01:19,276 | INFO    | train | [oof0/s42] epoch 04 | train loss 0.3763 acc 0.9051 F1 0.5719 (refit on all DS1)
+2026-10-08 14:01:20,609 | INFO    | train | [oof0/s42] epoch 05 | train loss 0.3363 acc 0.9094 F1 0.5769 (refit on all DS1)
+2026-10-08 14:01:22,137 | INFO    | train | [oof0/s42] epoch 06 | train loss 0.3636 acc 0.8963 F1 0.5663 (refit on all DS1)
+2026-10-08 14:01:23,613 | INFO    | train | [oof0/s42] epoch 07 | train loss 0.2843 acc 0.9150 F1 0.5816 (refit on all DS1)
+2026-10-08 14:01:26,686 | INFO    | train | [oof0/s7] device=cuda augment=True seed=7 | train records (17): 101, 106, 108, 109, 112, 115, 116, 119, 122, 124, 201, 203, 205, 209, 220, 223, 230
+2026-10-08 14:01:26,686 | INFO    | train | [oof0/s7] val records (0): 
+2026-10-08 14:01:26,686 | INFO    | train | [oof0/s7] train beats=38646 [35522, 724, 2363, 37] | val beats=0 []
+2026-10-08 14:01:26,686 | INFO    | train | [oof0/s7] class weights (N,S,V,F) = [0.2720000147819519, 13.345000267028809, 4.089000225067139, 261.12200927734375]
+2026-10-08 14:01:28,373 | INFO    | train | [oof0/s7] epoch 01 | train loss 0.8129 acc 0.8445 F1 0.4348 (refit on all DS1)
+2026-10-08 14:01:29,710 | INFO    | train | [oof0/s7] epoch 02 | train loss 0.5280 acc 0.9076 F1 0.5514 (refit on all DS1)
+2026-10-08 14:01:30,951 | INFO    | train | [oof0/s7] epoch 03 | train loss 0.4469 acc 0.9053 F1 0.5588 (refit on all DS1)
+2026-10-08 14:01:32,327 | INFO    | train | [oof0/s7] epoch 04 | train loss 0.4224 acc 0.8998 F1 0.5617 (refit on all DS1)
+2026-10-08 14:01:33,671 | INFO    | train | [oof0/s7] epoch 05 | train loss 0.3735 acc 0.9034 F1 0.5671 (refit on all DS1)
+2026-10-08 14:01:34,930 | INFO    | train | [oof0/s7] epoch 06 | train loss 0.3453 acc 0.9008 F1 0.5698 (refit on all DS1)
+2026-10-08 14:01:36,185 | INFO    | train | [oof0/s7] epoch 07 | train loss 0.3536 acc 0.9104 F1 0.5725 (refit on all DS1)
+2026-10-08 14:01:39,066 | INFO    | train | [oof0/s2024] device=cuda augment=True seed=2024 | train records (17): 101, 106, 108, 109, 112, 115, 116, 119, 122, 124, 201, 203, 205, 209, 220, 223, 230
+2026-10-08 14:01:39,066 | INFO    | train | [oof0/s2024] val records (0): 
+2026-10-08 14:01:39,066 | INFO    | train | [oof0/s2024] train beats=38646 [35522, 724, 2363, 37] | val beats=0 []
+2026-10-08 14:01:39,066 | INFO    | train | [oof0/s2024] class weights (N,S,V,F) = [0.2720000147819519, 13.345000267028809, 4.089000225067139, 261.12200927734375]
+2026-10-08 14:01:40,617 | INFO    | train | [oof0/s2024] epoch 01 | train loss 0.7852 acc 0.8908 F1 0.4814 (refit on all DS1)
+2026-10-08 14:01:41,879 | INFO    | train | [oof0/s2024] epoch 02 | train loss 0.5162 acc 0.9211 F1 0.5653 (refit on all DS1)
+2026-10-08 14:01:43,278 | INFO    | train | [oof0/s2024] epoch 03 | train loss 0.4119 acc 0.9031 F1 0.5706 (refit on all DS1)
+2026-10-08 14:01:44,618 | INFO    | train | [oof0/s2024] epoch 04 | train loss 0.3976 acc 0.8998 F1 0.5721 (refit on all DS1)
+2026-10-08 14:01:45,803 | INFO    | train | [oof0/s2024] epoch 05 | train loss 0.3661 acc 0.8948 F1 0.5727 (refit on all DS1)
+2026-10-08 14:01:47,302 | INFO    | train | [oof0/s2024] epoch 06 | train loss 0.3173 acc 0.8974 F1 0.5693 (refit on all DS1)
+2026-10-08 14:01:49,442 | INFO    | train | [oof0/s2024] epoch 07 | train loss 0.3429 acc 0.9030 F1 0.5740 (refit on all DS1)
+2026-10-08 14:01:52,605 | INFO    | calibrate | OOF fold 1/5 done: held-out records 114, 118, 207, 208, 215
+2026-10-08 14:01:58,686 | INFO    | train | [oof1/s42] device=cuda augment=True seed=42 | train records (17): 101, 108, 109, 112, 114, 116, 118, 119, 122, 124, 203, 207, 208, 209, 215, 220, 223
+2026-10-08 14:01:58,686 | INFO    | train | [oof1/s42] val records (0): 
+2026-10-08 14:01:58,686 | INFO    | train | [oof1/s42] train beats=40124 [35913, 812, 2998, 401] | val beats=0 []
+2026-10-08 14:01:58,687 | INFO    | train | [oof1/s42] class weights (N,S,V,F) = [0.27900001406669617, 12.352999687194824, 3.3459999561309814, 25.014999389648438]
+2026-10-08 14:02:01,126 | INFO    | train | [oof1/s42] epoch 01 | train loss 0.7028 acc 0.7878 F1 0.5020 (refit on all DS1)
+2026-10-08 14:02:03,524 | INFO    | train | [oof1/s42] epoch 02 | train loss 0.3439 acc 0.9030 F1 0.6449 (refit on all DS1)
+2026-10-08 14:02:06,028 | INFO    | train | [oof1/s42] epoch 03 | train loss 0.2897 acc 0.9090 F1 0.6606 (refit on all DS1)
+2026-10-08 14:02:08,056 | INFO    | train | [oof1/s42] epoch 04 | train loss 0.2566 acc 0.9138 F1 0.6730 (refit on all DS1)
+2026-10-08 14:02:10,015 | INFO    | train | [oof1/s42] epoch 05 | train loss 0.2430 acc 0.9147 F1 0.6749 (refit on all DS1)
+2026-10-08 14:02:11,984 | INFO    | train | [oof1/s42] epoch 06 | train loss 0.2272 acc 0.9182 F1 0.6818 (refit on all DS1)
+2026-10-08 14:02:14,288 | INFO    | train | [oof1/s42] epoch 07 | train loss 0.2039 acc 0.9237 F1 0.6966 (refit on all DS1)
+2026-10-08 14:02:20,489 | INFO    | train | [oof1/s7] device=cuda augment=True seed=7 | train records (17): 101, 108, 109, 112, 114, 116, 118, 119, 122, 124, 203, 207, 208, 209, 215, 220, 223
+2026-10-08 14:02:20,489 | INFO    | train | [oof1/s7] val records (0): 
+2026-10-08 14:02:20,489 | INFO    | train | [oof1/s7] train beats=40124 [35913, 812, 2998, 401] | val beats=0 []
+2026-10-08 14:02:20,495 | INFO    | train | [oof1/s7] class weights (N,S,V,F) = [0.27900001406669617, 12.352999687194824, 3.3459999561309814, 25.014999389648438]
+2026-10-08 14:02:22,691 | INFO    | train | [oof1/s7] epoch 01 | train loss 0.6869 acc 0.8091 F1 0.5067 (refit on all DS1)
+2026-10-08 14:02:24,786 | INFO    | train | [oof1/s7] epoch 02 | train loss 0.3440 acc 0.8994 F1 0.6385 (refit on all DS1)
+2026-10-08 14:02:26,942 | INFO    | train | [oof1/s7] epoch 03 | train loss 0.3004 acc 0.9003 F1 0.6433 (refit on all DS1)
+2026-10-08 14:02:29,246 | INFO    | train | [oof1/s7] epoch 04 | train loss 0.2624 acc 0.9104 F1 0.6665 (refit on all DS1)
+2026-10-08 14:02:31,170 | INFO    | train | [oof1/s7] epoch 05 | train loss 0.2373 acc 0.9130 F1 0.6702 (refit on all DS1)
+2026-10-08 14:02:33,159 | INFO    | train | [oof1/s7] epoch 06 | train loss 0.2215 acc 0.9208 F1 0.6908 (refit on all DS1)
+2026-10-08 14:02:35,164 | INFO    | train | [oof1/s7] epoch 07 | train loss 0.2086 acc 0.9253 F1 0.7000 (refit on all DS1)
+2026-10-08 14:02:41,047 | INFO    | train | [oof1/s2024] device=cuda augment=True seed=2024 | train records (17): 101, 108, 109, 112, 114, 116, 118, 119, 122, 124, 203, 207, 208, 209, 215, 220, 223
+2026-10-08 14:02:41,047 | INFO    | train | [oof1/s2024] val records (0): 
+2026-10-08 14:02:41,048 | INFO    | train | [oof1/s2024] train beats=40124 [35913, 812, 2998, 401] | val beats=0 []
+2026-10-08 14:02:41,048 | INFO    | train | [oof1/s2024] class weights (N,S,V,F) = [0.27900001406669617, 12.352999687194824, 3.3459999561309814, 25.014999389648438]
+2026-10-08 14:02:43,312 | INFO    | train | [oof1/s2024] epoch 01 | train loss 0.6629 acc 0.8171 F1 0.5278 (refit on all DS1)
+2026-10-08 14:02:45,598 | INFO    | train | [oof1/s2024] epoch 02 | train loss 0.3417 acc 0.8888 F1 0.6229 (refit on all DS1)
+2026-10-08 14:02:48,036 | INFO    | train | [oof1/s2024] epoch 03 | train loss 0.2753 acc 0.9025 F1 0.6491 (refit on all DS1)
+2026-10-08 14:02:50,449 | INFO    | train | [oof1/s2024] epoch 04 | train loss 0.2534 acc 0.9067 F1 0.6611 (refit on all DS1)
+2026-10-08 14:02:52,732 | INFO    | train | [oof1/s2024] epoch 05 | train loss 0.2369 acc 0.9093 F1 0.6662 (refit on all DS1)
+2026-10-08 14:02:55,102 | INFO    | train | [oof1/s2024] epoch 06 | train loss 0.2178 acc 0.9119 F1 0.6746 (refit on all DS1)
+2026-10-08 14:02:58,080 | INFO    | train | [oof1/s2024] epoch 07 | train loss 0.2114 acc 0.9178 F1 0.6837 (refit on all DS1)
+2026-10-08 14:03:01,074 | INFO    | calibrate | OOF fold 2/5 done: held-out records 106, 115, 201, 205, 230
+2026-10-08 14:03:07,963 | INFO    | train | [oof2/s42] device=cuda augment=True seed=42 | train records (18): 106, 108, 109, 114, 115, 116, 118, 119, 122, 201, 205, 207, 208, 209, 215, 220, 223, 230
+2026-10-08 14:03:07,963 | INFO    | train | [oof2/s42] val records (0): 
+2026-10-08 14:03:07,967 | INFO    | train | [oof2/s42] train beats=41980 [37370, 905, 3297, 408] | val beats=0 []
+2026-10-08 14:03:07,967 | INFO    | train | [oof2/s42] class weights (N,S,V,F) = [0.2809999883174896, 11.597000122070312, 3.183000087738037, 25.722999572753906]
+2026-10-08 14:03:11,642 | INFO    | train | [oof2/s42] epoch 01 | train loss 0.6725 acc 0.8412 F1 0.5421 (refit on all DS1)
+2026-10-08 14:03:15,482 | INFO    | train | [oof2/s42] epoch 02 | train loss 0.3053 acc 0.9307 F1 0.6942 (refit on all DS1)
+2026-10-08 14:03:19,362 | INFO    | train | [oof2/s42] epoch 03 | train loss 0.2688 acc 0.9335 F1 0.7022 (refit on all DS1)
+2026-10-08 14:03:23,235 | INFO    | train | [oof2/s42] epoch 04 | train loss 0.1993 acc 0.9426 F1 0.7292 (refit on all DS1)
+2026-10-08 14:03:26,517 | INFO    | train | [oof2/s42] epoch 05 | train loss 0.1927 acc 0.9467 F1 0.7448 (refit on all DS1)
+2026-10-08 14:03:29,905 | INFO    | train | [oof2/s42] epoch 06 | train loss 0.1657 acc 0.9535 F1 0.7680 (refit on all DS1)
+2026-10-08 14:03:33,541 | INFO    | train | [oof2/s42] epoch 07 | train loss 0.1726 acc 0.9527 F1 0.7612 (refit on all DS1)
+2026-10-08 14:03:39,896 | INFO    | train | [oof2/s7] device=cuda augment=True seed=7 | train records (18): 106, 108, 109, 114, 115, 116, 118, 119, 122, 201, 205, 207, 208, 209, 215, 220, 223, 230
+2026-10-08 14:03:39,896 | INFO    | train | [oof2/s7] val records (0): 
+2026-10-08 14:03:39,896 | INFO    | train | [oof2/s7] train beats=41980 [37370, 905, 3297, 408] | val beats=0 []
+2026-10-08 14:03:39,897 | INFO    | train | [oof2/s7] class weights (N,S,V,F) = [0.2809999883174896, 11.597000122070312, 3.183000087738037, 25.722999572753906]
+2026-10-08 14:03:43,054 | INFO    | train | [oof2/s7] epoch 01 | train loss 0.6387 acc 0.8201 F1 0.5261 (refit on all DS1)
+2026-10-08 14:03:45,805 | INFO    | train | [oof2/s7] epoch 02 | train loss 0.3057 acc 0.9213 F1 0.6753 (refit on all DS1)
+2026-10-08 14:03:48,694 | INFO    | train | [oof2/s7] epoch 03 | train loss 0.2323 acc 0.9372 F1 0.7176 (refit on all DS1)
+2026-10-08 14:03:51,686 | INFO    | train | [oof2/s7] epoch 04 | train loss 0.2118 acc 0.9419 F1 0.7340 (refit on all DS1)
+2026-10-08 14:03:54,621 | INFO    | train | [oof2/s7] epoch 05 | train loss 0.1934 acc 0.9457 F1 0.7421 (refit on all DS1)
+2026-10-08 14:03:57,585 | INFO    | train | [oof2/s7] epoch 06 | train loss 0.1858 acc 0.9472 F1 0.7445 (refit on all DS1)
+2026-10-08 14:04:00,319 | INFO    | train | [oof2/s7] epoch 07 | train loss 0.1683 acc 0.9510 F1 0.7591 (refit on all DS1)
+2026-10-08 14:04:05,955 | INFO    | train | [oof2/s2024] device=cuda augment=True seed=2024 | train records (18): 106, 108, 109, 114, 115, 116, 118, 119, 122, 201, 205, 207, 208, 209, 215, 220, 223, 230
+2026-10-08 14:04:05,955 | INFO    | train | [oof2/s2024] val records (0): 
+2026-10-08 14:04:05,955 | INFO    | train | [oof2/s2024] train beats=41980 [37370, 905, 3297, 408] | val beats=0 []
+2026-10-08 14:04:05,956 | INFO    | train | [oof2/s2024] class weights (N,S,V,F) = [0.2809999883174896, 11.597000122070312, 3.183000087738037, 25.722999572753906]
+2026-10-08 14:04:09,664 | INFO    | train | [oof2/s2024] epoch 01 | train loss 0.6622 acc 0.8482 F1 0.5479 (refit on all DS1)
+2026-10-08 14:04:13,021 | INFO    | train | [oof2/s2024] epoch 02 | train loss 0.3080 acc 0.9199 F1 0.6696 (refit on all DS1)
+2026-10-08 14:04:16,432 | INFO    | train | [oof2/s2024] epoch 03 | train loss 0.2384 acc 0.9401 F1 0.7210 (refit on all DS1)
+2026-10-08 14:04:19,947 | INFO    | train | [oof2/s2024] epoch 04 | train loss 0.2099 acc 0.9405 F1 0.7243 (refit on all DS1)
+2026-10-08 14:04:23,627 | INFO    | train | [oof2/s2024] epoch 05 | train loss 0.1881 acc 0.9490 F1 0.7532 (refit on all DS1)
+2026-10-08 14:04:27,339 | INFO    | train | [oof2/s2024] epoch 06 | train loss 0.1846 acc 0.9464 F1 0.7413 (refit on all DS1)
+2026-10-08 14:04:31,007 | INFO    | train | [oof2/s2024] epoch 07 | train loss 0.1518 acc 0.9560 F1 0.7778 (refit on all DS1)
+2026-10-08 14:04:34,013 | INFO    | calibrate | OOF fold 3/5 done: held-out records 101, 112, 124, 203
+2026-10-08 14:04:39,672 | INFO    | train | [oof3/s42] device=cuda augment=True seed=42 | train records (18): 101, 106, 109, 112, 114, 115, 118, 122, 124, 201, 203, 205, 207, 208, 215, 220, 223, 230
+2026-10-08 14:04:39,672 | INFO    | train | [oof3/s42] val records (0): 
+2026-10-08 14:04:39,673 | INFO    | train | [oof3/s42] train beats=41810 [37626, 555, 3217, 412] | val beats=0 []
+2026-10-08 14:04:39,673 | INFO    | train | [oof3/s42] class weights (N,S,V,F) = [0.27799999713897705, 18.83300018310547, 3.249000072479248, 25.3700008392334]
+2026-10-08 14:04:42,908 | INFO    | train | [oof3/s42] epoch 01 | train loss 0.7726 acc 0.8050 F1 0.4732 (refit on all DS1)
+2026-10-08 14:04:46,196 | INFO    | train | [oof3/s42] epoch 02 | train loss 0.4418 acc 0.8769 F1 0.5760 (refit on all DS1)
+2026-10-08 14:04:49,621 | INFO    | train | [oof3/s42] epoch 03 | train loss 0.3459 acc 0.8951 F1 0.6084 (refit on all DS1)
+2026-10-08 14:04:53,166 | INFO    | train | [oof3/s42] epoch 04 | train loss 0.3161 acc 0.8989 F1 0.6166 (refit on all DS1)
+2026-10-08 14:04:56,737 | INFO    | train | [oof3/s42] epoch 05 | train loss 0.2817 acc 0.9022 F1 0.6286 (refit on all DS1)
+2026-10-08 14:05:00,224 | INFO    | train | [oof3/s42] epoch 06 | train loss 0.2686 acc 0.9075 F1 0.6349 (refit on all DS1)
+2026-10-08 14:05:03,745 | INFO    | train | [oof3/s42] epoch 07 | train loss 0.2648 acc 0.9114 F1 0.6402 (refit on all DS1)
+2026-10-08 14:05:09,607 | INFO    | train | [oof3/s7] device=cuda augment=True seed=7 | train records (18): 101, 106, 109, 112, 114, 115, 118, 122, 124, 201, 203, 205, 207, 208, 215, 220, 223, 230
+2026-10-08 14:05:09,607 | INFO    | train | [oof3/s7] val records (0): 
+2026-10-08 14:05:09,607 | INFO    | train | [oof3/s7] train beats=41810 [37626, 555, 3217, 412] | val beats=0 []
+2026-10-08 14:05:09,608 | INFO    | train | [oof3/s7] class weights (N,S,V,F) = [0.27799999713897705, 18.83300018310547, 3.249000072479248, 25.3700008392334]
+2026-10-08 14:05:13,028 | INFO    | train | [oof3/s7] epoch 01 | train loss 0.7476 acc 0.8017 F1 0.4703 (refit on all DS1)
+2026-10-08 14:05:17,584 | INFO    | train | [oof3/s7] epoch 02 | train loss 0.4319 acc 0.8818 F1 0.5820 (refit on all DS1)
+2026-10-08 14:05:21,385 | INFO    | train | [oof3/s7] epoch 03 | train loss 0.3391 acc 0.8974 F1 0.6134 (refit on all DS1)
+2026-10-08 14:05:24,933 | INFO    | train | [oof3/s7] epoch 04 | train loss 0.3196 acc 0.9000 F1 0.6172 (refit on all DS1)
+2026-10-08 14:05:28,680 | INFO    | train | [oof3/s7] epoch 05 | train loss 0.2863 acc 0.9080 F1 0.6330 (refit on all DS1)
+2026-10-08 14:05:32,243 | INFO    | train | [oof3/s7] epoch 06 | train loss 0.3010 acc 0.9053 F1 0.6263 (refit on all DS1)
+2026-10-08 14:05:35,736 | INFO    | train | [oof3/s7] epoch 07 | train loss 0.2574 acc 0.9121 F1 0.6426 (refit on all DS1)
+2026-10-08 14:05:42,364 | INFO    | train | [oof3/s2024] device=cuda augment=True seed=2024 | train records (18): 101, 106, 109, 112, 114, 115, 118, 122, 124, 201, 203, 205, 207, 208, 215, 220, 223, 230
+2026-10-08 14:05:42,365 | INFO    | train | [oof3/s2024] val records (0): 
+2026-10-08 14:05:42,365 | INFO    | train | [oof3/s2024] train beats=41810 [37626, 555, 3217, 412] | val beats=0 []
+2026-10-08 14:05:42,365 | INFO    | train | [oof3/s2024] class weights (N,S,V,F) = [0.27799999713897705, 18.83300018310547, 3.249000072479248, 25.3700008392334]
+2026-10-08 14:05:45,790 | INFO    | train | [oof3/s2024] epoch 01 | train loss 0.7643 acc 0.8293 F1 0.4975 (refit on all DS1)
+2026-10-08 14:05:49,013 | INFO    | train | [oof3/s2024] epoch 02 | train loss 0.4143 acc 0.8875 F1 0.5890 (refit on all DS1)
+2026-10-08 14:05:52,452 | INFO    | train | [oof3/s2024] epoch 03 | train loss 0.3479 acc 0.8976 F1 0.6106 (refit on all DS1)
+2026-10-08 14:05:56,068 | INFO    | train | [oof3/s2024] epoch 04 | train loss 0.2915 acc 0.9053 F1 0.6261 (refit on all DS1)
+2026-10-08 14:05:59,776 | INFO    | train | [oof3/s2024] epoch 05 | train loss 0.2766 acc 0.9028 F1 0.6256 (refit on all DS1)
+2026-10-08 14:06:03,806 | INFO    | train | [oof3/s2024] epoch 06 | train loss 0.2708 acc 0.9076 F1 0.6337 (refit on all DS1)
+2026-10-08 14:06:07,662 | INFO    | train | [oof3/s2024] epoch 07 | train loss 0.2477 acc 0.9132 F1 0.6427 (refit on all DS1)
+2026-10-08 14:06:10,271 | INFO    | calibrate | OOF fold 4/5 done: held-out records 108, 116, 119, 209
+2026-10-08 14:06:14,124 | INFO    | train | [oof4/s42] device=cuda augment=True seed=42 | train records (18): 101, 106, 108, 112, 114, 115, 116, 118, 119, 124, 201, 203, 205, 207, 208, 209, 215, 230
+2026-10-08 14:06:14,124 | INFO    | train | [oof4/s42] val records (0): 
+2026-10-08 14:06:14,125 | INFO    | train | [oof4/s42] train beats=41316 [36865, 776, 3277, 398] | val beats=0 []
+2026-10-08 14:06:14,125 | INFO    | train | [oof4/s42] class weights (N,S,V,F) = [0.2800000011920929, 13.310999870300293, 3.1519999504089355, 25.95199966430664]
+2026-10-08 14:06:17,436 | INFO    | train | [oof4/s42] epoch 01 | train loss 0.7270 acc 0.8184 F1 0.5016 (refit on all DS1)
+2026-10-08 14:06:20,715 | INFO    | train | [oof4/s42] epoch 02 | train loss 0.3744 acc 0.8921 F1 0.6184 (refit on all DS1)
+2026-10-08 14:06:24,102 | INFO    | train | [oof4/s42] epoch 03 | train loss 0.3024 acc 0.9010 F1 0.6380 (refit on all DS1)
+2026-10-08 14:06:27,477 | INFO    | train | [oof4/s42] epoch 04 | train loss 0.2612 acc 0.9091 F1 0.6558 (refit on all DS1)
+2026-10-08 14:06:30,787 | INFO    | train | [oof4/s42] epoch 05 | train loss 0.2377 acc 0.9141 F1 0.6664 (refit on all DS1)
+2026-10-08 14:06:34,037 | INFO    | train | [oof4/s42] epoch 06 | train loss 0.2268 acc 0.9157 F1 0.6715 (refit on all DS1)
+2026-10-08 14:06:37,672 | INFO    | train | [oof4/s42] epoch 07 | train loss 0.2221 acc 0.9198 F1 0.6770 (refit on all DS1)
+2026-10-08 14:06:41,819 | INFO    | train | [oof4/s7] device=cuda augment=True seed=7 | train records (18): 101, 106, 108, 112, 114, 115, 116, 118, 119, 124, 201, 203, 205, 207, 208, 209, 215, 230
+2026-10-08 14:06:41,819 | INFO    | train | [oof4/s7] val records (0): 
+2026-10-08 14:06:41,821 | INFO    | train | [oof4/s7] train beats=41316 [36865, 776, 3277, 398] | val beats=0 []
+2026-10-08 14:06:41,821 | INFO    | train | [oof4/s7] class weights (N,S,V,F) = [0.2800000011920929, 13.310999870300293, 3.1519999504089355, 25.95199966430664]
+2026-10-08 14:06:45,630 | INFO    | train | [oof4/s7] epoch 01 | train loss 0.7099 acc 0.8044 F1 0.4929 (refit on all DS1)
+2026-10-08 14:06:49,081 | INFO    | train | [oof4/s7] epoch 02 | train loss 0.3784 acc 0.8872 F1 0.6132 (refit on all DS1)
+2026-10-08 14:06:52,498 | INFO    | train | [oof4/s7] epoch 03 | train loss 0.3033 acc 0.8978 F1 0.6373 (refit on all DS1)
+2026-10-08 14:06:55,892 | INFO    | train | [oof4/s7] epoch 04 | train loss 0.2544 acc 0.9056 F1 0.6552 (refit on all DS1)
+2026-10-08 14:06:59,138 | INFO    | train | [oof4/s7] epoch 05 | train loss 0.2438 acc 0.9093 F1 0.6647 (refit on all DS1)
+2026-10-08 14:07:02,483 | INFO    | train | [oof4/s7] epoch 06 | train loss 0.2229 acc 0.9165 F1 0.6741 (refit on all DS1)
+2026-10-08 14:07:06,180 | INFO    | train | [oof4/s7] epoch 07 | train loss 0.2023 acc 0.9217 F1 0.6886 (refit on all DS1)
+2026-10-08 14:07:09,797 | INFO    | train | [oof4/s2024] device=cuda augment=True seed=2024 | train records (18): 101, 106, 108, 112, 114, 115, 116, 118, 119, 124, 201, 203, 205, 207, 208, 209, 215, 230
+2026-10-08 14:07:09,797 | INFO    | train | [oof4/s2024] val records (0): 
+2026-10-08 14:07:09,797 | INFO    | train | [oof4/s2024] train beats=41316 [36865, 776, 3277, 398] | val beats=0 []
+2026-10-08 14:07:09,797 | INFO    | train | [oof4/s2024] class weights (N,S,V,F) = [0.2800000011920929, 13.310999870300293, 3.1519999504089355, 25.95199966430664]
+2026-10-08 14:07:12,768 | INFO    | train | [oof4/s2024] epoch 01 | train loss 0.7053 acc 0.8089 F1 0.5064 (refit on all DS1)
+2026-10-08 14:07:16,188 | INFO    | train | [oof4/s2024] epoch 02 | train loss 0.3712 acc 0.8835 F1 0.6101 (refit on all DS1)
+2026-10-08 14:07:19,487 | INFO    | train | [oof4/s2024] epoch 03 | train loss 0.3078 acc 0.9008 F1 0.6388 (refit on all DS1)
+2026-10-08 14:07:22,663 | INFO    | train | [oof4/s2024] epoch 04 | train loss 0.2737 acc 0.9026 F1 0.6445 (refit on all DS1)
+2026-10-08 14:07:26,035 | INFO    | train | [oof4/s2024] epoch 05 | train loss 0.2383 acc 0.9087 F1 0.6582 (refit on all DS1)
+2026-10-08 14:07:29,594 | INFO    | train | [oof4/s2024] epoch 06 | train loss 0.2207 acc 0.9162 F1 0.6720 (refit on all DS1)
+2026-10-08 14:07:32,875 | INFO    | train | [oof4/s2024] epoch 07 | train loss 0.2082 acc 0.9176 F1 0.6771 (refit on all DS1)
+2026-10-08 14:07:35,364 | INFO    | calibrate | OOF fold 5/5 done: held-out records 109, 122, 220, 223
+E:\Work\PulseML\src\calibrate.py:86: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:821.)
+  qhat.append(float(s[rank - 1]))
+2026-10-08 14:07:35,798 | INFO    | calibrate | OOF raw         NLL 0.3931 | Brier 0.1811 | ECE 0.0309 | macro-F1 0.5315 | S prec 0.145 rec 0.501
+2026-10-08 14:07:35,798 | INFO    | calibrate | OOF temperature NLL 0.3874 | Brier 0.1815 | ECE 0.0415 | macro-F1 0.5315 | S prec 0.145 rec 0.501
+2026-10-08 14:07:35,798 | INFO    | calibrate | OOF bcts        NLL 0.1754 | Brier 0.0852 | ECE 0.0117 | macro-F1 0.4507 | S prec 0.010 rec 0.003
+2026-10-08 14:07:35,798 | INFO    | calibrate | Chosen calibration: bcts (lowest OOF NLL); use calibrated argmax: False
+2026-10-08 14:07:35,818 | INFO    | calibrate | Conformal qhat per class [0.0793, 0.9906, 0.7442, 0.9904] | OOF coverage 0.900, mean set size 1.38
+2026-10-08 14:07:53,848 | INFO    | calibrate | DS2 raw         NLL 0.4774 | Brier 0.2729 | ECE 0.0213 | macro-F1 0.6025 | S prec 0.414 rec 0.845
+2026-10-08 14:07:53,848 | INFO    | calibrate | DS2 temperature NLL 0.4843 | Brier 0.2742 | ECE 0.0483 | macro-F1 0.6025 | S prec 0.414 rec 0.845
+2026-10-08 14:07:53,848 | INFO    | calibrate | DS2 bcts        NLL 0.1581 | Brier 0.0783 | ECE 0.0206 | macro-F1 0.4793 | S prec 0.778 rec 0.004
+2026-10-08 14:07:53,848 | INFO    | calibrate | DS2 conformal: coverage 0.860 {'N': 0.845, 'S': 0.979, 'V': 0.982, 'F': 0.985} | mean set size 1.61 | singletons 47.4%
+2026-10-08 14:07:54,515 | INFO    | calibrate | Wrote E:\Work\PulseML\outputs\models\calibration.json, calibration_report.json and hybrid_calibration.png
+exit=0

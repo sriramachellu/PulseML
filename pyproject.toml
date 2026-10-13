@@ -1,0 +1,21 @@
+[project]
+name = "pulseml"
+version = "1.0.0"
+description = "End-to-end ECG arrhythmia data pipeline, ML training and serving on MIT-BIH (research only)"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["data", "outputs"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+# E501: formatter handles code; long lines left are markdown/HTML template literals.
+ignore = ["B008", "B905", "E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+filterwarnings = ["ignore::DeprecationWarning"]

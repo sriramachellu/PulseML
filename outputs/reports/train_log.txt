@@ -1,0 +1,52 @@
+2026-10-08 13:38:11,717 | INFO    | train | Loaded DS1: 50969 beats from 22 records | class counts [45824, 943, 3788, 414]
+2026-10-08 13:38:11,894 | INFO    | train | [logreg] grid search {'clf__C': [0.01, 0.1, 1.0, 10.0]} with 3-fold StratifiedGroupKFold (by record)
+2026-10-08 13:38:16,461 | INFO    | train | [logreg]   {'clf__C': 0.01} -> macro-F1 0.4868 ± 0.0499
+2026-10-08 13:38:16,461 | INFO    | train | [logreg]   {'clf__C': 0.1} -> macro-F1 0.4541 ± 0.0690
+2026-10-08 13:38:16,461 | INFO    | train | [logreg]   {'clf__C': 1.0} -> macro-F1 0.4450 ± 0.0756
+2026-10-08 13:38:16,461 | INFO    | train | [logreg]   {'clf__C': 10.0} -> macro-F1 0.4444 ± 0.0777
+2026-10-08 13:38:16,461 | INFO    | train | [logreg] best {'clf__C': 0.01} (CV macro-F1 0.4868) saved -> logreg_best.joblib [4.6s]
+2026-10-08 13:38:16,461 | INFO    | train | [xgboost] grid search {'max_depth': [2, 3, 5], 'n_estimators': [100, 300], 'learning_rate': [0.05, 0.1]} with 3-fold StratifiedGroupKFold (by record)
+2026-10-08 13:38:54,809 | INFO    | train | [xgboost]   {'learning_rate': 0.05, 'max_depth': 2, 'n_estimators': 100} -> macro-F1 0.5401 ± 0.0471
+2026-10-08 13:38:54,809 | INFO    | train | [xgboost]   {'learning_rate': 0.05, 'max_depth': 2, 'n_estimators': 300} -> macro-F1 0.5125 ± 0.0566
+2026-10-08 13:38:54,809 | INFO    | train | [xgboost]   {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100} -> macro-F1 0.5348 ± 0.0415
+2026-10-08 13:38:54,810 | INFO    | train | [xgboost]   {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 300} -> macro-F1 0.4931 ± 0.0453
+2026-10-08 13:38:54,810 | INFO    | train | [xgboost]   {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 100} -> macro-F1 0.4942 ± 0.0257
+2026-10-08 13:38:54,810 | INFO    | train | [xgboost]   {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300} -> macro-F1 0.4523 ± 0.0428
+2026-10-08 13:38:54,810 | INFO    | train | [xgboost]   {'learning_rate': 0.1, 'max_depth': 2, 'n_estimators': 100} -> macro-F1 0.5211 ± 0.0572
+2026-10-08 13:38:54,810 | INFO    | train | [xgboost]   {'learning_rate': 0.1, 'max_depth': 2, 'n_estimators': 300} -> macro-F1 0.5034 ± 0.0566
+2026-10-08 13:38:54,811 | INFO    | train | [xgboost]   {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100} -> macro-F1 0.4958 ± 0.0387
+2026-10-08 13:38:54,811 | INFO    | train | [xgboost]   {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 300} -> macro-F1 0.4673 ± 0.0389
+2026-10-08 13:38:54,811 | INFO    | train | [xgboost]   {'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100} -> macro-F1 0.4694 ± 0.0358
+2026-10-08 13:38:54,811 | INFO    | train | [xgboost]   {'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 300} -> macro-F1 0.4343 ± 0.0497
+2026-10-08 13:38:54,811 | INFO    | train | [xgboost] best {'learning_rate': 0.05, 'max_depth': 2, 'n_estimators': 100} (CV macro-F1 0.5401) saved -> xgb_best.joblib [38.4s]
+E:\Work\PulseML\src\train.py:55: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  totals = counts.sum(0).to_numpy().astype(float)
+E:\Work\PulseML\src\train.py:61: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  share = counts.iloc[val].sum(0).to_numpy() / np.maximum(totals, 1)
+2026-10-08 13:38:55,939 | INFO    | train | [cnn] device=cuda augment=False seed=42 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:38:55,940 | INFO    | train | [cnn] val records (4): 114, 124, 205, 223
+2026-10-08 13:38:55,943 | INFO    | train | [cnn] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:38:55,950 | INFO    | train | [cnn] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:38:59,594 | INFO    | train | [cnn] epoch 01 | train loss 0.9405 acc 0.3681 F1 0.2793 | val loss 1.5125 acc 0.1356 F1 0.1561  *best*
+2026-10-08 13:39:00,677 | INFO    | train | [cnn] epoch 02 | train loss 0.6467 acc 0.5931 F1 0.4004 | val loss 1.6168 acc 0.4362 F1 0.2526  *best*
+2026-10-08 13:39:01,864 | INFO    | train | [cnn] epoch 03 | train loss 0.5094 acc 0.7086 F1 0.4721 | val loss 1.5904 acc 0.5404 F1 0.4199  *best*
+2026-10-08 13:39:02,948 | INFO    | train | [cnn] epoch 04 | train loss 0.4451 acc 0.7703 F1 0.5159 | val loss 1.2792 acc 0.6892 F1 0.4288  *best*
+2026-10-08 13:39:04,047 | INFO    | train | [cnn] epoch 05 | train loss 0.3906 acc 0.8026 F1 0.5454 | val loss 1.9124 acc 0.6018 F1 0.4146
+2026-10-08 13:39:05,137 | INFO    | train | [cnn] epoch 06 | train loss 0.3463 acc 0.8256 F1 0.5663 | val loss 1.9363 acc 0.6094 F1 0.4402  *best*
+2026-10-08 13:39:06,236 | INFO    | train | [cnn] epoch 07 | train loss 0.3339 acc 0.8303 F1 0.5699 | val loss 1.5954 acc 0.6842 F1 0.3856
+2026-10-08 13:39:07,422 | INFO    | train | [cnn] epoch 08 | train loss 0.3176 acc 0.8480 F1 0.5973 | val loss 1.6005 acc 0.7219 F1 0.3967
+2026-10-08 13:39:08,520 | INFO    | train | [cnn] epoch 09 | train loss 0.2805 acc 0.8646 F1 0.6152 | val loss 1.9371 acc 0.6607 F1 0.4436  *best*
+2026-10-08 13:39:09,612 | INFO    | train | [cnn] epoch 10 | train loss 0.3025 acc 0.8544 F1 0.5932 | val loss 2.5221 acc 0.5339 F1 0.4077
+2026-10-08 13:39:10,710 | INFO    | train | [cnn] epoch 11 | train loss 0.2714 acc 0.8702 F1 0.6207 | val loss 2.0133 acc 0.7247 F1 0.4048
+2026-10-08 13:39:11,826 | INFO    | train | [cnn] epoch 12 | train loss 0.2751 acc 0.8689 F1 0.6179 | val loss 1.6071 acc 0.7697 F1 0.4029
+2026-10-08 13:39:13,020 | INFO    | train | [cnn] epoch 13 | train loss 0.2738 acc 0.8704 F1 0.6225 | val loss 1.1963 acc 0.8088 F1 0.4640  *best*
+2026-10-08 13:39:14,204 | INFO    | train | [cnn] epoch 14 | train loss 0.2651 acc 0.8765 F1 0.6326 | val loss 1.9372 acc 0.7043 F1 0.4052
+2026-10-08 13:39:15,344 | INFO    | train | [cnn] epoch 15 | train loss 0.2377 acc 0.8903 F1 0.6527 | val loss 2.5443 acc 0.5818 F1 0.4069
+2026-10-08 13:39:16,440 | INFO    | train | [cnn] epoch 16 | train loss 0.2559 acc 0.8795 F1 0.6342 | val loss 2.2570 acc 0.7131 F1 0.3982
+2026-10-08 13:39:17,644 | INFO    | train | [cnn] epoch 17 | train loss 0.2177 acc 0.8949 F1 0.6596 | val loss 1.5876 acc 0.5730 F1 0.3282
+2026-10-08 13:39:18,748 | INFO    | train | [cnn] epoch 18 | train loss 0.2378 acc 0.8848 F1 0.6376 | val loss 1.8639 acc 0.7499 F1 0.4300
+2026-10-08 13:39:19,871 | INFO    | train | [cnn] epoch 19 | train loss 0.2182 acc 0.9008 F1 0.6606 | val loss 1.8189 acc 0.7657 F1 0.4434
+2026-10-08 13:39:20,986 | INFO    | train | [cnn] epoch 20 | train loss 0.2221 acc 0.8992 F1 0.6657 | val loss 2.9911 acc 0.5842 F1 0.3769
+2026-10-08 13:39:20,986 | INFO    | train | [cnn] early stopping at epoch 20 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:39:21,045 | INFO    | train | [cnn] best epoch 13 val macro-F1 0.4640441790505076 -> E:\Work\PulseML\outputs\models\cnn_best.pt
+2026-10-08 13:39:21,390 | INFO    | train | Training metadata -> E:\Work\PulseML\outputs\models\training_metadata.json

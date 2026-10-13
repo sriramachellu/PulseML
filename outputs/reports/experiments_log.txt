@@ -1,0 +1,388 @@
+2026-10-08 13:16:10,282 | INFO    | experiments | ABLATION LogReg · 13 features (v1)                     CV F1 0.4579 | DS2 F1 0.5059
+2026-10-08 13:16:15,649 | INFO    | experiments | ABLATION XGBoost · 13 features (v1)                    CV F1 0.4769 | DS2 F1 0.4698
+2026-10-08 13:16:18,069 | INFO    | experiments | ABLATION LogReg · 16 features (+ normalised RR)        CV F1 0.4868 | DS2 F1 0.5864
+2026-10-08 13:16:23,516 | INFO    | experiments | ABLATION XGBoost · 16 features (+ normalised RR)       CV F1 0.5095 | DS2 F1 0.5120
+2026-10-08 13:16:31,274 | INFO    | train | [cnn/s42] device=cuda augment=False seed=42 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:16:31,274 | INFO    | train | [cnn/s42] val records (4): 114, 124, 205, 223
+2026-10-08 13:16:31,274 | INFO    | train | [cnn/s42] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:16:31,276 | INFO    | train | [cnn/s42] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:16:35,330 | INFO    | train | [cnn/s42] epoch 01 | train loss 0.9405 acc 0.3681 F1 0.2793 | val loss 1.5125 acc 0.1356 F1 0.1561  *best*
+2026-10-08 13:16:37,018 | INFO    | train | [cnn/s42] epoch 02 | train loss 0.6467 acc 0.5931 F1 0.4004 | val loss 1.6168 acc 0.4362 F1 0.2526  *best*
+2026-10-08 13:16:38,614 | INFO    | train | [cnn/s42] epoch 03 | train loss 0.5094 acc 0.7086 F1 0.4721 | val loss 1.5904 acc 0.5404 F1 0.4199  *best*
+2026-10-08 13:16:40,272 | INFO    | train | [cnn/s42] epoch 04 | train loss 0.4451 acc 0.7703 F1 0.5159 | val loss 1.2792 acc 0.6892 F1 0.4288  *best*
+2026-10-08 13:16:41,840 | INFO    | train | [cnn/s42] epoch 05 | train loss 0.3906 acc 0.8026 F1 0.5454 | val loss 1.9124 acc 0.6018 F1 0.4146
+2026-10-08 13:16:43,412 | INFO    | train | [cnn/s42] epoch 06 | train loss 0.3463 acc 0.8256 F1 0.5663 | val loss 1.9363 acc 0.6094 F1 0.4402  *best*
+2026-10-08 13:16:45,166 | INFO    | train | [cnn/s42] epoch 07 | train loss 0.3339 acc 0.8303 F1 0.5699 | val loss 1.5954 acc 0.6842 F1 0.3856
+2026-10-08 13:16:47,237 | INFO    | train | [cnn/s42] epoch 08 | train loss 0.3176 acc 0.8480 F1 0.5973 | val loss 1.6005 acc 0.7219 F1 0.3967
+2026-10-08 13:16:48,945 | INFO    | train | [cnn/s42] epoch 09 | train loss 0.2805 acc 0.8646 F1 0.6152 | val loss 1.9371 acc 0.6607 F1 0.4436  *best*
+2026-10-08 13:16:50,618 | INFO    | train | [cnn/s42] epoch 10 | train loss 0.3025 acc 0.8544 F1 0.5932 | val loss 2.5221 acc 0.5339 F1 0.4077
+2026-10-08 13:16:52,337 | INFO    | train | [cnn/s42] epoch 11 | train loss 0.2714 acc 0.8702 F1 0.6207 | val loss 2.0133 acc 0.7247 F1 0.4048
+2026-10-08 13:16:54,172 | INFO    | train | [cnn/s42] epoch 12 | train loss 0.2751 acc 0.8689 F1 0.6179 | val loss 1.6071 acc 0.7697 F1 0.4029
+2026-10-08 13:16:55,830 | INFO    | train | [cnn/s42] epoch 13 | train loss 0.2738 acc 0.8704 F1 0.6225 | val loss 1.1963 acc 0.8088 F1 0.4640  *best*
+2026-10-08 13:16:57,603 | INFO    | train | [cnn/s42] epoch 14 | train loss 0.2651 acc 0.8765 F1 0.6326 | val loss 1.9372 acc 0.7043 F1 0.4052
+2026-10-08 13:16:59,291 | INFO    | train | [cnn/s42] epoch 15 | train loss 0.2377 acc 0.8903 F1 0.6527 | val loss 2.5443 acc 0.5818 F1 0.4069
+2026-10-08 13:17:00,966 | INFO    | train | [cnn/s42] epoch 16 | train loss 0.2559 acc 0.8795 F1 0.6342 | val loss 2.2570 acc 0.7131 F1 0.3982
+2026-10-08 13:17:02,810 | INFO    | train | [cnn/s42] epoch 17 | train loss 0.2177 acc 0.8949 F1 0.6596 | val loss 1.5876 acc 0.5730 F1 0.3282
+2026-10-08 13:17:04,477 | INFO    | train | [cnn/s42] epoch 18 | train loss 0.2378 acc 0.8848 F1 0.6376 | val loss 1.8639 acc 0.7499 F1 0.4300
+2026-10-08 13:17:06,211 | INFO    | train | [cnn/s42] epoch 19 | train loss 0.2182 acc 0.9008 F1 0.6606 | val loss 1.8189 acc 0.7657 F1 0.4434
+2026-10-08 13:17:07,840 | INFO    | train | [cnn/s42] epoch 20 | train loss 0.2221 acc 0.8992 F1 0.6657 | val loss 2.9911 acc 0.5842 F1 0.3769
+2026-10-08 13:17:07,840 | INFO    | train | [cnn/s42] early stopping at epoch 20 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:17:12,140 | INFO    | experiments | ABLATION CNN (waveform)           seed=42   val F1 0.4640 | DS2 F1 0.4079
+2026-10-08 13:17:14,443 | INFO    | train | [cnn/s7] device=cuda augment=False seed=7 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:17:14,443 | INFO    | train | [cnn/s7] val records (4): 114, 124, 205, 223
+2026-10-08 13:17:14,444 | INFO    | train | [cnn/s7] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:17:14,444 | INFO    | train | [cnn/s7] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:17:16,717 | INFO    | train | [cnn/s7] epoch 01 | train loss 0.9281 acc 0.3844 F1 0.2805 | val loss 1.5167 acc 0.4774 F1 0.3880  *best*
+2026-10-08 13:17:18,300 | INFO    | train | [cnn/s7] epoch 02 | train loss 0.6155 acc 0.6146 F1 0.4110 | val loss 1.5308 acc 0.5971 F1 0.4317  *best*
+2026-10-08 13:17:19,833 | INFO    | train | [cnn/s7] epoch 03 | train loss 0.5274 acc 0.7118 F1 0.4679 | val loss 1.4876 acc 0.7597 F1 0.4543  *best*
+2026-10-08 13:17:21,346 | INFO    | train | [cnn/s7] epoch 04 | train loss 0.4403 acc 0.7873 F1 0.5204 | val loss 1.3181 acc 0.6091 F1 0.4250
+2026-10-08 13:17:22,844 | INFO    | train | [cnn/s7] epoch 05 | train loss 0.3831 acc 0.8110 F1 0.5448 | val loss 1.3043 acc 0.8502 F1 0.4732  *best*
+2026-10-08 13:17:24,457 | INFO    | train | [cnn/s7] epoch 06 | train loss 0.3771 acc 0.8252 F1 0.5575 | val loss 1.5868 acc 0.7401 F1 0.4694
+2026-10-08 13:17:25,941 | INFO    | train | [cnn/s7] epoch 07 | train loss 0.3221 acc 0.8480 F1 0.5860 | val loss 2.0092 acc 0.6139 F1 0.4377
+2026-10-08 13:17:27,902 | INFO    | train | [cnn/s7] epoch 08 | train loss 0.3106 acc 0.8460 F1 0.5860 | val loss 1.5243 acc 0.7405 F1 0.4503
+2026-10-08 13:17:29,454 | INFO    | train | [cnn/s7] epoch 09 | train loss 0.2795 acc 0.8576 F1 0.6031 | val loss 2.2597 acc 0.7005 F1 0.4439
+2026-10-08 13:17:30,954 | INFO    | train | [cnn/s7] epoch 10 | train loss 0.3002 acc 0.8502 F1 0.5931 | val loss 1.9410 acc 0.7436 F1 0.4173
+2026-10-08 13:17:32,551 | INFO    | train | [cnn/s7] epoch 11 | train loss 0.2645 acc 0.8772 F1 0.6319 | val loss 1.6781 acc 0.9232 F1 0.4826  *best*
+2026-10-08 13:17:34,012 | INFO    | train | [cnn/s7] epoch 12 | train loss 0.2618 acc 0.8674 F1 0.6166 | val loss 1.7374 acc 0.6960 F1 0.4056
+2026-10-08 13:17:35,492 | INFO    | train | [cnn/s7] epoch 13 | train loss 0.2651 acc 0.8739 F1 0.6296 | val loss 2.2993 acc 0.8466 F1 0.4100
+2026-10-08 13:17:36,978 | INFO    | train | [cnn/s7] epoch 14 | train loss 0.2500 acc 0.8815 F1 0.6423 | val loss 1.5979 acc 0.9469 F1 0.5040  *best*
+2026-10-08 13:17:38,554 | INFO    | train | [cnn/s7] epoch 15 | train loss 0.2394 acc 0.8830 F1 0.6442 | val loss 1.8321 acc 0.7411 F1 0.4386
+2026-10-08 13:17:40,199 | INFO    | train | [cnn/s7] epoch 16 | train loss 0.2530 acc 0.8807 F1 0.6382 | val loss 1.8198 acc 0.7550 F1 0.4262
+2026-10-08 13:17:41,712 | INFO    | train | [cnn/s7] epoch 17 | train loss 0.2362 acc 0.8852 F1 0.6386 | val loss 2.4391 acc 0.6254 F1 0.3938
+2026-10-08 13:17:43,265 | INFO    | train | [cnn/s7] epoch 18 | train loss 0.2281 acc 0.8937 F1 0.6592 | val loss 1.6614 acc 0.8832 F1 0.4932
+2026-10-08 13:17:44,743 | INFO    | train | [cnn/s7] epoch 19 | train loss 0.2380 acc 0.8918 F1 0.6552 | val loss 2.3218 acc 0.6423 F1 0.3836
+2026-10-08 13:17:46,367 | INFO    | train | [cnn/s7] epoch 20 | train loss 0.2226 acc 0.8957 F1 0.6660 | val loss 1.8401 acc 0.7430 F1 0.4303
+2026-10-08 13:17:48,015 | INFO    | train | [cnn/s7] epoch 21 | train loss 0.2102 acc 0.9026 F1 0.6772 | val loss 2.4577 acc 0.6893 F1 0.3476
+2026-10-08 13:17:48,015 | INFO    | train | [cnn/s7] early stopping at epoch 21 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:17:52,162 | INFO    | experiments | ABLATION CNN (waveform)           seed=7    val F1 0.5040 | DS2 F1 0.4327
+2026-10-08 13:17:54,002 | INFO    | train | [cnn/s2024] device=cuda augment=False seed=2024 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:17:54,002 | INFO    | train | [cnn/s2024] val records (4): 114, 124, 205, 223
+2026-10-08 13:17:54,002 | INFO    | train | [cnn/s2024] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:17:54,003 | INFO    | train | [cnn/s2024] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:17:55,884 | INFO    | train | [cnn/s2024] epoch 01 | train loss 0.9597 acc 0.4121 F1 0.2934 | val loss 1.2794 acc 0.4837 F1 0.3995  *best*
+2026-10-08 13:17:57,546 | INFO    | train | [cnn/s2024] epoch 02 | train loss 0.6741 acc 0.5926 F1 0.3993 | val loss 1.3462 acc 0.5205 F1 0.4145  *best*
+2026-10-08 13:17:59,051 | INFO    | train | [cnn/s2024] epoch 03 | train loss 0.5436 acc 0.7147 F1 0.4659 | val loss 2.8832 acc 0.1230 F1 0.2507
+2026-10-08 13:18:00,648 | INFO    | train | [cnn/s2024] epoch 04 | train loss 0.4561 acc 0.7781 F1 0.5161 | val loss 1.1060 acc 0.8632 F1 0.4930  *best*
+2026-10-08 13:18:02,153 | INFO    | train | [cnn/s2024] epoch 05 | train loss 0.3936 acc 0.8140 F1 0.5496 | val loss 1.9996 acc 0.5795 F1 0.3478
+2026-10-08 13:18:03,649 | INFO    | train | [cnn/s2024] epoch 06 | train loss 0.3786 acc 0.8264 F1 0.5633 | val loss 1.4472 acc 0.7864 F1 0.4616
+2026-10-08 13:18:05,199 | INFO    | train | [cnn/s2024] epoch 07 | train loss 0.3494 acc 0.8412 F1 0.5754 | val loss 1.2407 acc 0.9316 F1 0.4967  *best*
+2026-10-08 13:18:06,657 | INFO    | train | [cnn/s2024] epoch 08 | train loss 0.3167 acc 0.8507 F1 0.5960 | val loss 1.3676 acc 0.7313 F1 0.4708
+2026-10-08 13:18:08,268 | INFO    | train | [cnn/s2024] epoch 09 | train loss 0.3187 acc 0.8508 F1 0.5871 | val loss 2.0065 acc 0.5523 F1 0.4000
+2026-10-08 13:18:09,779 | INFO    | train | [cnn/s2024] epoch 10 | train loss 0.3001 acc 0.8546 F1 0.5941 | val loss 1.2535 acc 0.7192 F1 0.4303
+2026-10-08 13:18:11,262 | INFO    | train | [cnn/s2024] epoch 11 | train loss 0.2902 acc 0.8651 F1 0.6105 | val loss 1.9652 acc 0.6347 F1 0.4015
+2026-10-08 13:18:12,802 | INFO    | train | [cnn/s2024] epoch 12 | train loss 0.2764 acc 0.8680 F1 0.6161 | val loss 1.5018 acc 0.7184 F1 0.4307
+2026-10-08 13:18:14,302 | INFO    | train | [cnn/s2024] epoch 13 | train loss 0.2599 acc 0.8763 F1 0.6342 | val loss 1.3093 acc 0.8993 F1 0.4883
+2026-10-08 13:18:15,930 | INFO    | train | [cnn/s2024] epoch 14 | train loss 0.2538 acc 0.8787 F1 0.6306 | val loss 1.7508 acc 0.7145 F1 0.4298
+2026-10-08 13:18:15,930 | INFO    | train | [cnn/s2024] early stopping at epoch 14 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:18:20,028 | INFO    | experiments | ABLATION CNN (waveform)           seed=2024 val F1 0.4967 | DS2 F1 0.4067
+2026-10-08 13:18:22,121 | INFO    | train | [cnn+aug/s42] device=cuda augment=True seed=42 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:18:22,121 | INFO    | train | [cnn+aug/s42] val records (4): 114, 124, 205, 223
+2026-10-08 13:18:22,121 | INFO    | train | [cnn+aug/s42] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:18:22,121 | INFO    | train | [cnn+aug/s42] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:18:24,744 | INFO    | train | [cnn+aug/s42] epoch 01 | train loss 0.9672 acc 0.3580 F1 0.2746 | val loss 1.7763 acc 0.3408 F1 0.3524  *best*
+2026-10-08 13:18:26,961 | INFO    | train | [cnn+aug/s42] epoch 02 | train loss 0.7129 acc 0.5053 F1 0.3649 | val loss 1.9695 acc 0.4161 F1 0.3817  *best*
+2026-10-08 13:18:29,087 | INFO    | train | [cnn+aug/s42] epoch 03 | train loss 0.5719 acc 0.6418 F1 0.4365 | val loss 3.1955 acc 0.1630 F1 0.2615
+2026-10-08 13:18:31,137 | INFO    | train | [cnn+aug/s42] epoch 04 | train loss 0.5309 acc 0.7127 F1 0.4728 | val loss 1.6646 acc 0.5998 F1 0.4348  *best*
+2026-10-08 13:18:33,270 | INFO    | train | [cnn+aug/s42] epoch 05 | train loss 0.4761 acc 0.7340 F1 0.4933 | val loss 1.4694 acc 0.8000 F1 0.4089
+2026-10-08 13:18:35,155 | INFO    | train | [cnn+aug/s42] epoch 06 | train loss 0.4293 acc 0.7715 F1 0.5179 | val loss 1.8577 acc 0.6242 F1 0.4470  *best*
+2026-10-08 13:18:37,155 | INFO    | train | [cnn+aug/s42] epoch 07 | train loss 0.4088 acc 0.7860 F1 0.5319 | val loss 1.6965 acc 0.7476 F1 0.4593  *best*
+2026-10-08 13:18:39,039 | INFO    | train | [cnn+aug/s42] epoch 08 | train loss 0.3913 acc 0.8167 F1 0.5600 | val loss 1.8564 acc 0.6728 F1 0.4168
+2026-10-08 13:18:41,170 | INFO    | train | [cnn+aug/s42] epoch 09 | train loss 0.3511 acc 0.8289 F1 0.5755 | val loss 1.8537 acc 0.6693 F1 0.3961
+2026-10-08 13:18:42,847 | INFO    | train | [cnn+aug/s42] epoch 10 | train loss 0.3592 acc 0.8260 F1 0.5604 | val loss 2.1255 acc 0.5455 F1 0.3743
+2026-10-08 13:18:44,564 | INFO    | train | [cnn+aug/s42] epoch 11 | train loss 0.3307 acc 0.8465 F1 0.5905 | val loss 1.7061 acc 0.7009 F1 0.4014
+2026-10-08 13:18:46,135 | INFO    | train | [cnn+aug/s42] epoch 12 | train loss 0.3386 acc 0.8389 F1 0.5829 | val loss 1.8476 acc 0.6597 F1 0.4109
+2026-10-08 13:18:47,543 | INFO    | train | [cnn+aug/s42] epoch 13 | train loss 0.3511 acc 0.8389 F1 0.5776 | val loss 1.3924 acc 0.8118 F1 0.3793
+2026-10-08 13:18:49,026 | INFO    | train | [cnn+aug/s42] epoch 14 | train loss 0.3186 acc 0.8427 F1 0.5911 | val loss 1.9932 acc 0.5768 F1 0.2720
+2026-10-08 13:18:49,026 | INFO    | train | [cnn+aug/s42] early stopping at epoch 14 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:18:51,979 | INFO    | experiments | ABLATION CNN + augmentation       seed=42   val F1 0.4593 | DS2 F1 0.4009
+2026-10-08 13:18:53,067 | INFO    | train | [cnn+aug/s7] device=cuda augment=True seed=7 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:18:53,068 | INFO    | train | [cnn+aug/s7] val records (4): 114, 124, 205, 223
+2026-10-08 13:18:53,068 | INFO    | train | [cnn+aug/s7] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:18:53,068 | INFO    | train | [cnn+aug/s7] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:18:54,901 | INFO    | train | [cnn+aug/s7] epoch 01 | train loss 0.9520 acc 0.3657 F1 0.2730 | val loss 1.5008 acc 0.4550 F1 0.3889  *best*
+2026-10-08 13:18:56,289 | INFO    | train | [cnn+aug/s7] epoch 02 | train loss 0.6483 acc 0.5745 F1 0.3910 | val loss 1.2816 acc 0.7903 F1 0.4656  *best*
+2026-10-08 13:18:57,713 | INFO    | train | [cnn+aug/s7] epoch 03 | train loss 0.5733 acc 0.6612 F1 0.4425 | val loss 1.7224 acc 0.5623 F1 0.4205
+2026-10-08 13:18:59,107 | INFO    | train | [cnn+aug/s7] epoch 04 | train loss 0.5123 acc 0.7232 F1 0.4794 | val loss 1.5921 acc 0.6834 F1 0.3893
+2026-10-08 13:19:00,617 | INFO    | train | [cnn+aug/s7] epoch 05 | train loss 0.4467 acc 0.7648 F1 0.5106 | val loss 1.7556 acc 0.7975 F1 0.3634
+2026-10-08 13:19:02,063 | INFO    | train | [cnn+aug/s7] epoch 06 | train loss 0.4417 acc 0.7853 F1 0.5220 | val loss 1.7104 acc 0.7443 F1 0.4346
+2026-10-08 13:19:03,459 | INFO    | train | [cnn+aug/s7] epoch 07 | train loss 0.3809 acc 0.8088 F1 0.5444 | val loss 1.8642 acc 0.7387 F1 0.4270
+2026-10-08 13:19:04,866 | INFO    | train | [cnn+aug/s7] epoch 08 | train loss 0.3670 acc 0.8111 F1 0.5512 | val loss 1.3680 acc 0.8190 F1 0.4911  *best*
+2026-10-08 13:19:06,392 | INFO    | train | [cnn+aug/s7] epoch 09 | train loss 0.3445 acc 0.8257 F1 0.5662 | val loss 2.0583 acc 0.6067 F1 0.3904
+2026-10-08 13:19:07,826 | INFO    | train | [cnn+aug/s7] epoch 10 | train loss 0.3375 acc 0.8283 F1 0.5695 | val loss 1.7869 acc 0.7841 F1 0.4327
+2026-10-08 13:19:09,310 | INFO    | train | [cnn+aug/s7] epoch 11 | train loss 0.3178 acc 0.8499 F1 0.5956 | val loss 1.7390 acc 0.7293 F1 0.4118
+2026-10-08 13:19:10,727 | INFO    | train | [cnn+aug/s7] epoch 12 | train loss 0.3083 acc 0.8417 F1 0.5799 | val loss 1.9394 acc 0.8877 F1 0.4321
+2026-10-08 13:19:12,230 | INFO    | train | [cnn+aug/s7] epoch 13 | train loss 0.2974 acc 0.8542 F1 0.6017 | val loss 1.9479 acc 0.8952 F1 0.4158
+2026-10-08 13:19:13,848 | INFO    | train | [cnn+aug/s7] epoch 14 | train loss 0.2746 acc 0.8672 F1 0.6207 | val loss 1.7357 acc 0.8877 F1 0.4033
+2026-10-08 13:19:15,280 | INFO    | train | [cnn+aug/s7] epoch 15 | train loss 0.2872 acc 0.8644 F1 0.6141 | val loss 2.1094 acc 0.5995 F1 0.3966
+2026-10-08 13:19:15,280 | INFO    | train | [cnn+aug/s7] early stopping at epoch 15 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:19:18,212 | INFO    | experiments | ABLATION CNN + augmentation       seed=7    val F1 0.4911 | DS2 F1 0.4305
+2026-10-08 13:19:19,305 | INFO    | train | [cnn+aug/s2024] device=cuda augment=True seed=2024 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:19:19,305 | INFO    | train | [cnn+aug/s2024] val records (4): 114, 124, 205, 223
+2026-10-08 13:19:19,305 | INFO    | train | [cnn+aug/s2024] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:19:19,306 | INFO    | train | [cnn+aug/s2024] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:19:20,903 | INFO    | train | [cnn+aug/s2024] epoch 01 | train loss 0.9839 acc 0.3913 F1 0.2838 | val loss 1.3696 acc 0.3886 F1 0.3810  *best*
+2026-10-08 13:19:22,385 | INFO    | train | [cnn+aug/s2024] epoch 02 | train loss 0.7069 acc 0.5428 F1 0.3740 | val loss 2.5911 acc 0.2888 F1 0.3347
+2026-10-08 13:19:23,806 | INFO    | train | [cnn+aug/s2024] epoch 03 | train loss 0.5956 acc 0.6692 F1 0.4374 | val loss 3.4042 acc 0.0847 F1 0.2386
+2026-10-08 13:19:25,442 | INFO    | train | [cnn+aug/s2024] epoch 04 | train loss 0.5384 acc 0.7248 F1 0.4762 | val loss 1.3558 acc 0.7796 F1 0.4627  *best*
+2026-10-08 13:19:27,077 | INFO    | train | [cnn+aug/s2024] epoch 05 | train loss 0.4670 acc 0.7753 F1 0.5146 | val loss 1.8946 acc 0.4802 F1 0.3814
+2026-10-08 13:19:28,967 | INFO    | train | [cnn+aug/s2024] epoch 06 | train loss 0.4283 acc 0.8026 F1 0.5357 | val loss 1.4684 acc 0.7593 F1 0.4588
+2026-10-08 13:19:31,729 | INFO    | train | [cnn+aug/s2024] epoch 07 | train loss 0.4226 acc 0.8049 F1 0.5361 | val loss 1.5499 acc 0.7547 F1 0.4754  *best*
+2026-10-08 13:19:33,681 | INFO    | train | [cnn+aug/s2024] epoch 08 | train loss 0.3715 acc 0.8214 F1 0.5589 | val loss 1.3850 acc 0.7805 F1 0.4856  *best*
+2026-10-08 13:19:35,217 | INFO    | train | [cnn+aug/s2024] epoch 09 | train loss 0.3606 acc 0.8312 F1 0.5656 | val loss 2.7382 acc 0.4787 F1 0.3711
+2026-10-08 13:19:36,820 | INFO    | train | [cnn+aug/s2024] epoch 10 | train loss 0.3422 acc 0.8378 F1 0.5710 | val loss 1.4867 acc 0.7999 F1 0.5050  *best*
+2026-10-08 13:19:38,245 | INFO    | train | [cnn+aug/s2024] epoch 11 | train loss 0.3372 acc 0.8399 F1 0.5789 | val loss 1.9365 acc 0.6961 F1 0.4407
+2026-10-08 13:19:39,703 | INFO    | train | [cnn+aug/s2024] epoch 12 | train loss 0.3130 acc 0.8488 F1 0.5879 | val loss 1.6359 acc 0.7670 F1 0.4820
+2026-10-08 13:19:41,154 | INFO    | train | [cnn+aug/s2024] epoch 13 | train loss 0.3035 acc 0.8596 F1 0.6033 | val loss 1.6886 acc 0.7830 F1 0.4896
+2026-10-08 13:19:42,784 | INFO    | train | [cnn+aug/s2024] epoch 14 | train loss 0.2949 acc 0.8650 F1 0.6063 | val loss 1.5444 acc 0.8194 F1 0.5020
+2026-10-08 13:19:44,171 | INFO    | train | [cnn+aug/s2024] epoch 15 | train loss 0.3098 acc 0.8644 F1 0.6090 | val loss 1.9177 acc 0.7707 F1 0.4282
+2026-10-08 13:19:45,602 | INFO    | train | [cnn+aug/s2024] epoch 16 | train loss 0.2864 acc 0.8720 F1 0.6211 | val loss 2.0989 acc 0.7460 F1 0.4393
+2026-10-08 13:19:47,125 | INFO    | train | [cnn+aug/s2024] epoch 17 | train loss 0.3016 acc 0.8662 F1 0.6069 | val loss 1.7265 acc 0.8234 F1 0.4804
+2026-10-08 13:19:47,125 | INFO    | train | [cnn+aug/s2024] early stopping at epoch 17 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:19:49,888 | INFO    | experiments | ABLATION CNN + augmentation       seed=2024 val F1 0.5050 | DS2 F1 0.4054
+2026-10-08 13:19:50,997 | INFO    | train | [hybrid/s42] device=cuda augment=False seed=42 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:19:50,997 | INFO    | train | [hybrid/s42] val records (4): 114, 124, 205, 223
+2026-10-08 13:19:50,998 | INFO    | train | [hybrid/s42] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:19:50,998 | INFO    | train | [hybrid/s42] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:19:52,436 | INFO    | train | [hybrid/s42] epoch 01 | train loss 0.7117 acc 0.7004 F1 0.4447 | val loss 1.1426 acc 0.8852 F1 0.5029  *best*
+2026-10-08 13:19:53,582 | INFO    | train | [hybrid/s42] epoch 02 | train loss 0.3717 acc 0.8868 F1 0.6082 | val loss 1.0355 acc 0.9529 F1 0.5237  *best*
+2026-10-08 13:19:54,718 | INFO    | train | [hybrid/s42] epoch 03 | train loss 0.2813 acc 0.9014 F1 0.6355 | val loss 1.1164 acc 0.9654 F1 0.5297  *best*
+2026-10-08 13:19:55,874 | INFO    | train | [hybrid/s42] epoch 04 | train loss 0.2341 acc 0.9163 F1 0.6661 | val loss 1.2250 acc 0.5972 F1 0.4374
+2026-10-08 13:19:57,005 | INFO    | train | [hybrid/s42] epoch 05 | train loss 0.2062 acc 0.9239 F1 0.6853 | val loss 1.2686 acc 0.9485 F1 0.5233
+2026-10-08 13:19:58,260 | INFO    | train | [hybrid/s42] epoch 06 | train loss 0.1880 acc 0.9274 F1 0.6933 | val loss 1.2461 acc 0.9289 F1 0.4996
+2026-10-08 13:19:59,389 | INFO    | train | [hybrid/s42] epoch 07 | train loss 0.1762 acc 0.9313 F1 0.7045 | val loss 1.3091 acc 0.9789 F1 0.5969  *best*
+2026-10-08 13:20:00,525 | INFO    | train | [hybrid/s42] epoch 08 | train loss 0.1520 acc 0.9388 F1 0.7245 | val loss 1.3702 acc 0.9663 F1 0.5320
+2026-10-08 13:20:01,682 | INFO    | train | [hybrid/s42] epoch 09 | train loss 0.1587 acc 0.9365 F1 0.7170 | val loss 1.3895 acc 0.9680 F1 0.5624
+2026-10-08 13:20:02,881 | INFO    | train | [hybrid/s42] epoch 10 | train loss 0.1453 acc 0.9419 F1 0.7380 | val loss 1.6234 acc 0.6074 F1 0.4362
+2026-10-08 13:20:04,090 | INFO    | train | [hybrid/s42] epoch 11 | train loss 0.1452 acc 0.9423 F1 0.7354 | val loss 1.3056 acc 0.9679 F1 0.5571
+2026-10-08 13:20:05,220 | INFO    | train | [hybrid/s42] epoch 12 | train loss 0.1429 acc 0.9408 F1 0.7333 | val loss 1.0870 acc 0.9714 F1 0.6005  *best*
+2026-10-08 13:20:06,374 | INFO    | train | [hybrid/s42] epoch 13 | train loss 0.1497 acc 0.9440 F1 0.7389 | val loss 1.1899 acc 0.9659 F1 0.5862
+2026-10-08 13:20:07,539 | INFO    | train | [hybrid/s42] epoch 14 | train loss 0.1361 acc 0.9447 F1 0.7407 | val loss 1.1110 acc 0.9723 F1 0.6063  *best*
+2026-10-08 13:20:08,715 | INFO    | train | [hybrid/s42] epoch 15 | train loss 0.1228 acc 0.9519 F1 0.7647 | val loss 1.2915 acc 0.9712 F1 0.6327  *best*
+2026-10-08 13:20:10,003 | INFO    | train | [hybrid/s42] epoch 16 | train loss 0.1230 acc 0.9503 F1 0.7634 | val loss 1.4928 acc 0.8071 F1 0.4546
+2026-10-08 13:20:11,159 | INFO    | train | [hybrid/s42] epoch 17 | train loss 0.1167 acc 0.9515 F1 0.7659 | val loss 1.2803 acc 0.9639 F1 0.5588
+2026-10-08 13:20:12,362 | INFO    | train | [hybrid/s42] epoch 18 | train loss 0.1180 acc 0.9513 F1 0.7665 | val loss 1.5060 acc 0.9663 F1 0.5691
+2026-10-08 13:20:13,550 | INFO    | train | [hybrid/s42] epoch 19 | train loss 0.1059 acc 0.9556 F1 0.7821 | val loss 1.4656 acc 0.9722 F1 0.5924
+2026-10-08 13:20:14,847 | INFO    | train | [hybrid/s42] epoch 20 | train loss 0.1083 acc 0.9529 F1 0.7723 | val loss 1.6948 acc 0.9649 F1 0.5151
+2026-10-08 13:20:16,035 | INFO    | train | [hybrid/s42] epoch 21 | train loss 0.1075 acc 0.9551 F1 0.7812 | val loss 1.6570 acc 0.9711 F1 0.5383
+2026-10-08 13:20:17,221 | INFO    | train | [hybrid/s42] epoch 22 | train loss 0.1136 acc 0.9555 F1 0.7827 | val loss 1.2684 acc 0.9695 F1 0.5623
+2026-10-08 13:20:17,221 | INFO    | train | [hybrid/s42] early stopping at epoch 22 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:20:20,256 | INFO    | experiments | ABLATION Hybrid (waveform + RR)   seed=42   val F1 0.6327 | DS2 F1 0.5799
+2026-10-08 13:20:21,336 | INFO    | train | [hybrid/s7] device=cuda augment=False seed=7 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:20:21,336 | INFO    | train | [hybrid/s7] val records (4): 114, 124, 205, 223
+2026-10-08 13:20:21,336 | INFO    | train | [hybrid/s7] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:20:21,337 | INFO    | train | [hybrid/s7] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:20:22,714 | INFO    | train | [hybrid/s7] epoch 01 | train loss 0.6924 acc 0.6948 F1 0.4278 | val loss 1.1380 acc 0.8324 F1 0.4844  *best*
+2026-10-08 13:20:23,879 | INFO    | train | [hybrid/s7] epoch 02 | train loss 0.3537 acc 0.8850 F1 0.6053 | val loss 1.1868 acc 0.9552 F1 0.5414  *best*
+2026-10-08 13:20:25,172 | INFO    | train | [hybrid/s7] epoch 03 | train loss 0.2860 acc 0.8999 F1 0.6349 | val loss 1.2014 acc 0.9426 F1 0.5098
+2026-10-08 13:20:26,346 | INFO    | train | [hybrid/s7] epoch 04 | train loss 0.2438 acc 0.9122 F1 0.6599 | val loss 1.1647 acc 0.9623 F1 0.5847  *best*
+2026-10-08 13:20:27,530 | INFO    | train | [hybrid/s7] epoch 05 | train loss 0.2208 acc 0.9190 F1 0.6726 | val loss 1.3030 acc 0.9614 F1 0.5691
+2026-10-08 13:20:28,731 | INFO    | train | [hybrid/s7] epoch 06 | train loss 0.2008 acc 0.9238 F1 0.6843 | val loss 1.1978 acc 0.9695 F1 0.6129  *best*
+2026-10-08 13:20:29,933 | INFO    | train | [hybrid/s7] epoch 07 | train loss 0.1801 acc 0.9303 F1 0.6999 | val loss 1.7710 acc 0.6485 F1 0.4360
+2026-10-08 13:20:31,238 | INFO    | train | [hybrid/s7] epoch 08 | train loss 0.1669 acc 0.9291 F1 0.6972 | val loss 1.3784 acc 0.9695 F1 0.5995
+2026-10-08 13:20:32,459 | INFO    | train | [hybrid/s7] epoch 09 | train loss 0.1673 acc 0.9312 F1 0.7063 | val loss 1.2593 acc 0.9642 F1 0.6116
+2026-10-08 13:20:33,699 | INFO    | train | [hybrid/s7] epoch 10 | train loss 0.1504 acc 0.9366 F1 0.7191 | val loss 1.4113 acc 0.9703 F1 0.6056
+2026-10-08 13:20:34,948 | INFO    | train | [hybrid/s7] epoch 11 | train loss 0.1498 acc 0.9369 F1 0.7203 | val loss 1.6010 acc 0.9709 F1 0.6091
+2026-10-08 13:20:36,193 | INFO    | train | [hybrid/s7] epoch 12 | train loss 0.1344 acc 0.9427 F1 0.7387 | val loss 1.4631 acc 0.9682 F1 0.5847
+2026-10-08 13:20:37,528 | INFO    | train | [hybrid/s7] epoch 13 | train loss 0.1476 acc 0.9404 F1 0.7323 | val loss 1.4981 acc 0.9704 F1 0.5672
+2026-10-08 13:20:37,528 | INFO    | train | [hybrid/s7] early stopping at epoch 13 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:20:40,583 | INFO    | experiments | ABLATION Hybrid (waveform + RR)   seed=7    val F1 0.6129 | DS2 F1 0.6406
+2026-10-08 13:20:41,674 | INFO    | train | [hybrid/s2024] device=cuda augment=False seed=2024 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:20:41,674 | INFO    | train | [hybrid/s2024] val records (4): 114, 124, 205, 223
+2026-10-08 13:20:41,674 | INFO    | train | [hybrid/s2024] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:20:41,674 | INFO    | train | [hybrid/s2024] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:20:43,033 | INFO    | train | [hybrid/s2024] epoch 01 | train loss 0.6923 acc 0.7994 F1 0.4842 | val loss 0.9339 acc 0.9624 F1 0.5885  *best*
+2026-10-08 13:20:44,256 | INFO    | train | [hybrid/s2024] epoch 02 | train loss 0.3613 acc 0.8844 F1 0.6027 | val loss 1.1522 acc 0.9234 F1 0.5089
+2026-10-08 13:20:45,503 | INFO    | train | [hybrid/s2024] epoch 03 | train loss 0.2802 acc 0.9031 F1 0.6380 | val loss 1.3161 acc 0.8305 F1 0.4839
+2026-10-08 13:20:46,713 | INFO    | train | [hybrid/s2024] epoch 04 | train loss 0.2318 acc 0.9141 F1 0.6601 | val loss 1.5021 acc 0.9543 F1 0.4798
+2026-10-08 13:20:48,005 | INFO    | train | [hybrid/s2024] epoch 05 | train loss 0.2246 acc 0.9184 F1 0.6720 | val loss 1.3316 acc 0.9218 F1 0.5142
+2026-10-08 13:20:49,226 | INFO    | train | [hybrid/s2024] epoch 06 | train loss 0.2005 acc 0.9245 F1 0.6851 | val loss 1.3136 acc 0.9688 F1 0.5162
+2026-10-08 13:20:50,461 | INFO    | train | [hybrid/s2024] epoch 07 | train loss 0.1800 acc 0.9334 F1 0.7091 | val loss 1.4374 acc 0.8809 F1 0.5023
+2026-10-08 13:20:51,698 | INFO    | train | [hybrid/s2024] epoch 08 | train loss 0.1701 acc 0.9328 F1 0.7062 | val loss 1.3489 acc 0.9691 F1 0.5767
+2026-10-08 13:20:51,698 | INFO    | train | [hybrid/s2024] early stopping at epoch 8 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:20:54,643 | INFO    | experiments | ABLATION Hybrid (waveform + RR)   seed=2024 val F1 0.5885 | DS2 F1 0.6405
+2026-10-08 13:20:55,670 | INFO    | train | [hybrid+aug/s42] device=cuda augment=True seed=42 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:20:55,670 | INFO    | train | [hybrid+aug/s42] val records (4): 114, 124, 205, 223
+2026-10-08 13:20:55,670 | INFO    | train | [hybrid+aug/s42] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:20:55,671 | INFO    | train | [hybrid+aug/s42] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:20:57,571 | INFO    | train | [hybrid+aug/s42] epoch 01 | train loss 0.7329 acc 0.6999 F1 0.4387 | val loss 1.2865 acc 0.7396 F1 0.4163  *best*
+2026-10-08 13:20:59,278 | INFO    | train | [hybrid+aug/s42] epoch 02 | train loss 0.3945 acc 0.8793 F1 0.5946 | val loss 1.1717 acc 0.7814 F1 0.4685  *best*
+2026-10-08 13:21:00,903 | INFO    | train | [hybrid+aug/s42] epoch 03 | train loss 0.3163 acc 0.8904 F1 0.6161 | val loss 1.2181 acc 0.8801 F1 0.5005  *best*
+2026-10-08 13:21:02,740 | INFO    | train | [hybrid+aug/s42] epoch 04 | train loss 0.2665 acc 0.9052 F1 0.6446 | val loss 1.0232 acc 0.8375 F1 0.5350  *best*
+2026-10-08 13:21:04,579 | INFO    | train | [hybrid+aug/s42] epoch 05 | train loss 0.2310 acc 0.9184 F1 0.6720 | val loss 1.1485 acc 0.9641 F1 0.5723  *best*
+2026-10-08 13:21:06,288 | INFO    | train | [hybrid+aug/s42] epoch 06 | train loss 0.2048 acc 0.9231 F1 0.6821 | val loss 1.2871 acc 0.9341 F1 0.5096
+2026-10-08 13:21:07,923 | INFO    | train | [hybrid+aug/s42] epoch 07 | train loss 0.1944 acc 0.9233 F1 0.6849 | val loss 1.3408 acc 0.9709 F1 0.5437
+2026-10-08 13:21:09,499 | INFO    | train | [hybrid+aug/s42] epoch 08 | train loss 0.1691 acc 0.9347 F1 0.7127 | val loss 1.2778 acc 0.9671 F1 0.5696
+2026-10-08 13:21:11,087 | INFO    | train | [hybrid+aug/s42] epoch 09 | train loss 0.1696 acc 0.9370 F1 0.7169 | val loss 1.4833 acc 0.9669 F1 0.5760  *best*
+2026-10-08 13:21:12,766 | INFO    | train | [hybrid+aug/s42] epoch 10 | train loss 0.1615 acc 0.9383 F1 0.7251 | val loss 2.8110 acc 0.3677 F1 0.3549
+2026-10-08 13:21:14,360 | INFO    | train | [hybrid+aug/s42] epoch 11 | train loss 0.1575 acc 0.9393 F1 0.7287 | val loss 1.3539 acc 0.9538 F1 0.4974
+2026-10-08 13:21:16,004 | INFO    | train | [hybrid+aug/s42] epoch 12 | train loss 0.1527 acc 0.9385 F1 0.7253 | val loss 1.1456 acc 0.9712 F1 0.6249  *best*
+2026-10-08 13:21:17,653 | INFO    | train | [hybrid+aug/s42] epoch 13 | train loss 0.1688 acc 0.9407 F1 0.7312 | val loss 1.0571 acc 0.9582 F1 0.5463
+2026-10-08 13:21:19,301 | INFO    | train | [hybrid+aug/s42] epoch 14 | train loss 0.1430 acc 0.9423 F1 0.7347 | val loss 1.1267 acc 0.9145 F1 0.5505
+2026-10-08 13:21:20,989 | INFO    | train | [hybrid+aug/s42] epoch 15 | train loss 0.1379 acc 0.9452 F1 0.7423 | val loss 1.3151 acc 0.9321 F1 0.5579
+2026-10-08 13:21:22,593 | INFO    | train | [hybrid+aug/s42] epoch 16 | train loss 0.1318 acc 0.9499 F1 0.7613 | val loss 1.7362 acc 0.7335 F1 0.4081
+2026-10-08 13:21:24,191 | INFO    | train | [hybrid+aug/s42] epoch 17 | train loss 0.1286 acc 0.9495 F1 0.7586 | val loss 1.4077 acc 0.9389 F1 0.4885
+2026-10-08 13:21:25,739 | INFO    | train | [hybrid+aug/s42] epoch 18 | train loss 0.1309 acc 0.9480 F1 0.7532 | val loss 1.3161 acc 0.9681 F1 0.5858
+2026-10-08 13:21:27,363 | INFO    | train | [hybrid+aug/s42] epoch 19 | train loss 0.1167 acc 0.9521 F1 0.7663 | val loss 1.4063 acc 0.9603 F1 0.5578
+2026-10-08 13:21:27,363 | INFO    | train | [hybrid+aug/s42] early stopping at epoch 19 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:21:30,349 | INFO    | experiments | ABLATION Hybrid + augmentation    seed=42   val F1 0.6249 | DS2 F1 0.5873
+2026-10-08 13:21:31,404 | INFO    | train | [hybrid+aug/s7] device=cuda augment=True seed=7 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:21:31,404 | INFO    | train | [hybrid+aug/s7] val records (4): 114, 124, 205, 223
+2026-10-08 13:21:31,404 | INFO    | train | [hybrid+aug/s7] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:21:31,405 | INFO    | train | [hybrid+aug/s7] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:21:33,273 | INFO    | train | [hybrid+aug/s7] epoch 01 | train loss 0.7127 acc 0.6982 F1 0.4272 | val loss 1.2212 acc 0.7429 F1 0.4517  *best*
+2026-10-08 13:21:34,816 | INFO    | train | [hybrid+aug/s7] epoch 02 | train loss 0.3627 acc 0.8818 F1 0.6005 | val loss 1.2334 acc 0.9633 F1 0.5063  *best*
+2026-10-08 13:21:36,420 | INFO    | train | [hybrid+aug/s7] epoch 03 | train loss 0.2959 acc 0.8956 F1 0.6273 | val loss 1.3674 acc 0.7483 F1 0.4689
+2026-10-08 13:21:37,977 | INFO    | train | [hybrid+aug/s7] epoch 04 | train loss 0.2518 acc 0.9072 F1 0.6503 | val loss 1.1567 acc 0.9661 F1 0.6009  *best*
+2026-10-08 13:21:39,567 | INFO    | train | [hybrid+aug/s7] epoch 05 | train loss 0.2338 acc 0.9152 F1 0.6638 | val loss 1.3478 acc 0.9631 F1 0.5655
+2026-10-08 13:21:41,286 | INFO    | train | [hybrid+aug/s7] epoch 06 | train loss 0.2132 acc 0.9211 F1 0.6789 | val loss 1.2252 acc 0.9627 F1 0.5920
+2026-10-08 13:21:42,887 | INFO    | train | [hybrid+aug/s7] epoch 07 | train loss 0.1836 acc 0.9315 F1 0.7024 | val loss 1.3505 acc 0.9513 F1 0.5446
+2026-10-08 13:21:44,480 | INFO    | train | [hybrid+aug/s7] epoch 08 | train loss 0.1788 acc 0.9279 F1 0.6933 | val loss 1.3001 acc 0.9605 F1 0.5899
+2026-10-08 13:21:46,036 | INFO    | train | [hybrid+aug/s7] epoch 09 | train loss 0.1780 acc 0.9276 F1 0.6945 | val loss 1.1904 acc 0.9648 F1 0.5984
+2026-10-08 13:21:47,683 | INFO    | train | [hybrid+aug/s7] epoch 10 | train loss 0.1638 acc 0.9361 F1 0.7161 | val loss 1.3418 acc 0.9682 F1 0.6041  *best*
+2026-10-08 13:21:49,274 | INFO    | train | [hybrid+aug/s7] epoch 11 | train loss 0.1497 acc 0.9395 F1 0.7268 | val loss 1.5659 acc 0.9659 F1 0.5991
+2026-10-08 13:21:50,905 | INFO    | train | [hybrid+aug/s7] epoch 12 | train loss 0.1468 acc 0.9388 F1 0.7263 | val loss 1.5352 acc 0.9664 F1 0.5826
+2026-10-08 13:21:52,516 | INFO    | train | [hybrid+aug/s7] epoch 13 | train loss 0.1592 acc 0.9389 F1 0.7231 | val loss 1.4577 acc 0.9603 F1 0.5830
+2026-10-08 13:21:54,256 | INFO    | train | [hybrid+aug/s7] epoch 14 | train loss 0.1403 acc 0.9431 F1 0.7394 | val loss 1.8378 acc 0.9704 F1 0.4893
+2026-10-08 13:21:56,095 | INFO    | train | [hybrid+aug/s7] epoch 15 | train loss 0.1401 acc 0.9436 F1 0.7395 | val loss 1.4709 acc 0.9709 F1 0.5627
+2026-10-08 13:21:57,728 | INFO    | train | [hybrid+aug/s7] epoch 16 | train loss 0.1367 acc 0.9466 F1 0.7503 | val loss 1.6051 acc 0.9750 F1 0.6192  *best*
+2026-10-08 13:21:59,302 | INFO    | train | [hybrid+aug/s7] epoch 17 | train loss 0.1405 acc 0.9437 F1 0.7423 | val loss 1.3952 acc 0.9614 F1 0.5910
+2026-10-08 13:22:00,912 | INFO    | train | [hybrid+aug/s7] epoch 18 | train loss 0.1305 acc 0.9484 F1 0.7546 | val loss 1.4263 acc 0.9697 F1 0.6202  *best*
+2026-10-08 13:22:02,653 | INFO    | train | [hybrid+aug/s7] epoch 19 | train loss 0.1295 acc 0.9488 F1 0.7574 | val loss 1.5005 acc 0.9451 F1 0.5761
+2026-10-08 13:22:04,255 | INFO    | train | [hybrid+aug/s7] epoch 20 | train loss 0.1265 acc 0.9500 F1 0.7612 | val loss 1.8105 acc 0.7801 F1 0.4889
+2026-10-08 13:22:05,871 | INFO    | train | [hybrid+aug/s7] epoch 21 | train loss 0.1136 acc 0.9507 F1 0.7639 | val loss 2.0861 acc 0.9182 F1 0.4638
+2026-10-08 13:22:07,507 | INFO    | train | [hybrid+aug/s7] epoch 22 | train loss 0.1352 acc 0.9448 F1 0.7451 | val loss 1.4094 acc 0.9623 F1 0.5886
+2026-10-08 13:22:09,165 | INFO    | train | [hybrid+aug/s7] epoch 23 | train loss 0.1275 acc 0.9495 F1 0.7602 | val loss 1.4054 acc 0.9719 F1 0.6262  *best*
+2026-10-08 13:22:10,837 | INFO    | train | [hybrid+aug/s7] epoch 24 | train loss 0.1199 acc 0.9512 F1 0.7675 | val loss 1.6798 acc 0.9233 F1 0.5127
+2026-10-08 13:22:12,494 | INFO    | train | [hybrid+aug/s7] epoch 25 | train loss 0.1226 acc 0.9499 F1 0.7615 | val loss 1.3260 acc 0.8862 F1 0.5462
+2026-10-08 13:22:14,189 | INFO    | train | [hybrid+aug/s7] epoch 26 | train loss 0.1175 acc 0.9516 F1 0.7638 | val loss 1.5596 acc 0.9594 F1 0.5467
+2026-10-08 13:22:15,799 | INFO    | train | [hybrid+aug/s7] epoch 27 | train loss 0.1157 acc 0.9523 F1 0.7676 | val loss 1.5409 acc 0.9699 F1 0.5700
+2026-10-08 13:22:17,462 | INFO    | train | [hybrid+aug/s7] epoch 28 | train loss 0.1078 acc 0.9538 F1 0.7730 | val loss 1.6725 acc 0.9678 F1 0.5822
+2026-10-08 13:22:19,230 | INFO    | train | [hybrid+aug/s7] epoch 29 | train loss 0.1122 acc 0.9589 F1 0.7941 | val loss 1.8111 acc 0.7509 F1 0.4768
+2026-10-08 13:22:20,869 | INFO    | train | [hybrid+aug/s7] epoch 30 | train loss 0.1118 acc 0.9558 F1 0.7790 | val loss 1.8533 acc 0.9683 F1 0.5214
+2026-10-08 13:22:20,869 | INFO    | train | [hybrid+aug/s7] early stopping at epoch 30 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:22:23,868 | INFO    | experiments | ABLATION Hybrid + augmentation    seed=7    val F1 0.6262 | DS2 F1 0.6006
+2026-10-08 13:22:24,900 | INFO    | train | [hybrid+aug/s2024] device=cuda augment=True seed=2024 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:22:24,900 | INFO    | train | [hybrid+aug/s2024] val records (4): 114, 124, 205, 223
+2026-10-08 13:22:24,901 | INFO    | train | [hybrid+aug/s2024] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:22:24,901 | INFO    | train | [hybrid+aug/s2024] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:22:26,762 | INFO    | train | [hybrid+aug/s2024] epoch 01 | train loss 0.7070 acc 0.7945 F1 0.4786 | val loss 0.9296 acc 0.9586 F1 0.5840  *best*
+2026-10-08 13:22:28,421 | INFO    | train | [hybrid+aug/s2024] epoch 02 | train loss 0.3788 acc 0.8778 F1 0.5923 | val loss 1.2700 acc 0.8678 F1 0.4711
+2026-10-08 13:22:30,084 | INFO    | train | [hybrid+aug/s2024] epoch 03 | train loss 0.3000 acc 0.8965 F1 0.6258 | val loss 1.5828 acc 0.5811 F1 0.4090
+2026-10-08 13:22:31,779 | INFO    | train | [hybrid+aug/s2024] epoch 04 | train loss 0.2565 acc 0.9076 F1 0.6469 | val loss 1.4561 acc 0.9571 F1 0.4862
+2026-10-08 13:22:33,384 | INFO    | train | [hybrid+aug/s2024] epoch 05 | train loss 0.2376 acc 0.9138 F1 0.6612 | val loss 1.1675 acc 0.9654 F1 0.5778
+2026-10-08 13:22:35,007 | INFO    | train | [hybrid+aug/s2024] epoch 06 | train loss 0.2132 acc 0.9206 F1 0.6756 | val loss 1.2840 acc 0.9447 F1 0.5077
+2026-10-08 13:22:36,564 | INFO    | train | [hybrid+aug/s2024] epoch 07 | train loss 0.2027 acc 0.9252 F1 0.6869 | val loss 1.1939 acc 0.9653 F1 0.5434
+2026-10-08 13:22:38,276 | INFO    | train | [hybrid+aug/s2024] epoch 08 | train loss 0.1900 acc 0.9291 F1 0.6943 | val loss 1.2028 acc 0.9685 F1 0.5947  *best*
+2026-10-08 13:22:39,852 | INFO    | train | [hybrid+aug/s2024] epoch 09 | train loss 0.1789 acc 0.9326 F1 0.7055 | val loss 1.8919 acc 0.5987 F1 0.4255
+2026-10-08 13:22:41,496 | INFO    | train | [hybrid+aug/s2024] epoch 10 | train loss 0.1698 acc 0.9305 F1 0.7009 | val loss 1.4162 acc 0.9685 F1 0.5789
+2026-10-08 13:22:43,081 | INFO    | train | [hybrid+aug/s2024] epoch 11 | train loss 0.1613 acc 0.9365 F1 0.7206 | val loss 1.4895 acc 0.9345 F1 0.4882
+2026-10-08 13:22:44,672 | INFO    | train | [hybrid+aug/s2024] epoch 12 | train loss 0.1514 acc 0.9372 F1 0.7201 | val loss 1.4869 acc 0.9610 F1 0.5285
+2026-10-08 13:22:46,344 | INFO    | train | [hybrid+aug/s2024] epoch 13 | train loss 0.1441 acc 0.9436 F1 0.7377 | val loss 1.5532 acc 0.7881 F1 0.4653
+2026-10-08 13:22:47,971 | INFO    | train | [hybrid+aug/s2024] epoch 14 | train loss 0.1376 acc 0.9416 F1 0.7370 | val loss 1.9134 acc 0.5876 F1 0.4225
+2026-10-08 13:22:49,629 | INFO    | train | [hybrid+aug/s2024] epoch 15 | train loss 0.1462 acc 0.9423 F1 0.7360 | val loss 1.4262 acc 0.7827 F1 0.4768
+2026-10-08 13:22:49,629 | INFO    | train | [hybrid+aug/s2024] early stopping at epoch 15 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:22:52,542 | INFO    | experiments | ABLATION Hybrid + augmentation    seed=2024 val F1 0.5947 | DS2 F1 0.5947
+2026-10-08 13:22:57,301 | INFO    | train | [hybrid_rel/s42] device=cuda augment=False seed=42 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:22:57,301 | INFO    | train | [hybrid_rel/s42] val records (4): 114, 124, 205, 223
+2026-10-08 13:22:57,301 | INFO    | train | [hybrid_rel/s42] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:22:57,301 | INFO    | train | [hybrid_rel/s42] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:22:58,798 | INFO    | train | [hybrid_rel/s42] epoch 01 | train loss 0.6604 acc 0.8224 F1 0.5133 | val loss 0.7599 acc 0.9664 F1 0.6176  *best*
+2026-10-08 13:22:59,962 | INFO    | train | [hybrid_rel/s42] epoch 02 | train loss 0.3064 acc 0.9030 F1 0.6384 | val loss 0.7620 acc 0.9457 F1 0.5125
+2026-10-08 13:23:01,242 | INFO    | train | [hybrid_rel/s42] epoch 03 | train loss 0.2266 acc 0.9122 F1 0.6638 | val loss 1.1216 acc 0.8338 F1 0.4502
+2026-10-08 13:23:02,410 | INFO    | train | [hybrid_rel/s42] epoch 04 | train loss 0.2023 acc 0.9212 F1 0.6808 | val loss 0.8222 acc 0.9707 F1 0.6227  *best*
+2026-10-08 13:23:03,588 | INFO    | train | [hybrid_rel/s42] epoch 05 | train loss 0.1748 acc 0.9312 F1 0.7052 | val loss 0.9701 acc 0.9495 F1 0.5605
+2026-10-08 13:23:04,742 | INFO    | train | [hybrid_rel/s42] epoch 06 | train loss 0.1695 acc 0.9304 F1 0.7013 | val loss 1.0381 acc 0.9573 F1 0.5217
+2026-10-08 13:23:05,916 | INFO    | train | [hybrid_rel/s42] epoch 07 | train loss 0.1497 acc 0.9364 F1 0.7222 | val loss 1.2286 acc 0.8797 F1 0.4203
+2026-10-08 13:23:07,193 | INFO    | train | [hybrid_rel/s42] epoch 08 | train loss 0.1408 acc 0.9418 F1 0.7290 | val loss 1.3120 acc 0.9464 F1 0.4629
+2026-10-08 13:23:08,378 | INFO    | train | [hybrid_rel/s42] epoch 09 | train loss 0.1253 acc 0.9468 F1 0.7495 | val loss 1.0719 acc 0.9640 F1 0.5347
+2026-10-08 13:23:09,579 | INFO    | train | [hybrid_rel/s42] epoch 10 | train loss 0.1353 acc 0.9491 F1 0.7542 | val loss 1.1298 acc 0.9621 F1 0.5364
+2026-10-08 13:23:10,766 | INFO    | train | [hybrid_rel/s42] epoch 11 | train loss 0.1094 acc 0.9523 F1 0.7642 | val loss 1.0250 acc 0.9587 F1 0.5277
+2026-10-08 13:23:10,766 | INFO    | train | [hybrid_rel/s42] early stopping at epoch 11 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:23:13,583 | INFO    | experiments | ABLATION Hybrid-rel (+ patient template) seed=42   val F1 0.6227 | DS2 F1 0.6818
+2026-10-08 13:23:18,327 | INFO    | train | [hybrid_rel/s7] device=cuda augment=False seed=7 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:23:18,327 | INFO    | train | [hybrid_rel/s7] val records (4): 114, 124, 205, 223
+2026-10-08 13:23:18,327 | INFO    | train | [hybrid_rel/s7] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:23:18,327 | INFO    | train | [hybrid_rel/s7] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:23:19,890 | INFO    | train | [hybrid_rel/s7] epoch 01 | train loss 0.6434 acc 0.8020 F1 0.4941 | val loss 0.8112 acc 0.9631 F1 0.6030  *best*
+2026-10-08 13:23:21,073 | INFO    | train | [hybrid_rel/s7] epoch 02 | train loss 0.2754 acc 0.9055 F1 0.6463 | val loss 0.9467 acc 0.9528 F1 0.5196
+2026-10-08 13:23:22,254 | INFO    | train | [hybrid_rel/s7] epoch 03 | train loss 0.2323 acc 0.9123 F1 0.6617 | val loss 1.1973 acc 0.9473 F1 0.4457
+2026-10-08 13:23:23,453 | INFO    | train | [hybrid_rel/s7] epoch 04 | train loss 0.1893 acc 0.9252 F1 0.6918 | val loss 0.9742 acc 0.9550 F1 0.5112
+2026-10-08 13:23:24,632 | INFO    | train | [hybrid_rel/s7] epoch 05 | train loss 0.1679 acc 0.9333 F1 0.7072 | val loss 1.0356 acc 0.9561 F1 0.5297
+2026-10-08 13:23:25,889 | INFO    | train | [hybrid_rel/s7] epoch 06 | train loss 0.1516 acc 0.9334 F1 0.7111 | val loss 1.2419 acc 0.9505 F1 0.4977
+2026-10-08 13:23:27,061 | INFO    | train | [hybrid_rel/s7] epoch 07 | train loss 0.1462 acc 0.9375 F1 0.7203 | val loss 1.4086 acc 0.8064 F1 0.4553
+2026-10-08 13:23:28,244 | INFO    | train | [hybrid_rel/s7] epoch 08 | train loss 0.1260 acc 0.9424 F1 0.7356 | val loss 1.1651 acc 0.9506 F1 0.5002
+2026-10-08 13:23:28,244 | INFO    | train | [hybrid_rel/s7] early stopping at epoch 8 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:23:31,001 | INFO    | experiments | ABLATION Hybrid-rel (+ patient template) seed=7    val F1 0.6030 | DS2 F1 0.6096
+2026-10-08 13:23:35,745 | INFO    | train | [hybrid_rel/s2024] device=cuda augment=False seed=2024 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:23:35,745 | INFO    | train | [hybrid_rel/s2024] val records (4): 114, 124, 205, 223
+2026-10-08 13:23:35,745 | INFO    | train | [hybrid_rel/s2024] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:23:35,746 | INFO    | train | [hybrid_rel/s2024] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:23:37,127 | INFO    | train | [hybrid_rel/s2024] epoch 01 | train loss 0.6578 acc 0.8184 F1 0.5264 | val loss 0.8422 acc 0.9391 F1 0.4942  *best*
+2026-10-08 13:23:38,273 | INFO    | train | [hybrid_rel/s2024] epoch 02 | train loss 0.2938 acc 0.8992 F1 0.6352 | val loss 0.9517 acc 0.9368 F1 0.5160  *best*
+2026-10-08 13:23:39,510 | INFO    | train | [hybrid_rel/s2024] epoch 03 | train loss 0.2165 acc 0.9149 F1 0.6663 | val loss 0.9699 acc 0.9290 F1 0.4904
+2026-10-08 13:23:40,664 | INFO    | train | [hybrid_rel/s2024] epoch 04 | train loss 0.1800 acc 0.9242 F1 0.6873 | val loss 1.0551 acc 0.9539 F1 0.5502  *best*
+2026-10-08 13:23:41,825 | INFO    | train | [hybrid_rel/s2024] epoch 05 | train loss 0.1782 acc 0.9292 F1 0.6970 | val loss 0.8959 acc 0.9562 F1 0.5689  *best*
+2026-10-08 13:23:43,039 | INFO    | train | [hybrid_rel/s2024] epoch 06 | train loss 0.1653 acc 0.9291 F1 0.6985 | val loss 0.9054 acc 0.9515 F1 0.5280
+2026-10-08 13:23:44,283 | INFO    | train | [hybrid_rel/s2024] epoch 07 | train loss 0.1404 acc 0.9378 F1 0.7232 | val loss 1.1140 acc 0.9472 F1 0.4991
+2026-10-08 13:23:45,438 | INFO    | train | [hybrid_rel/s2024] epoch 08 | train loss 0.1334 acc 0.9394 F1 0.7229 | val loss 1.1250 acc 0.9527 F1 0.5165
+2026-10-08 13:23:46,574 | INFO    | train | [hybrid_rel/s2024] epoch 09 | train loss 0.1190 acc 0.9479 F1 0.7528 | val loss 1.5255 acc 0.9365 F1 0.4310
+2026-10-08 13:23:47,713 | INFO    | train | [hybrid_rel/s2024] epoch 10 | train loss 0.1123 acc 0.9498 F1 0.7545 | val loss 1.5601 acc 0.9487 F1 0.5005
+2026-10-08 13:23:48,871 | INFO    | train | [hybrid_rel/s2024] epoch 11 | train loss 0.1290 acc 0.9483 F1 0.7496 | val loss 1.3484 acc 0.9435 F1 0.4630
+2026-10-08 13:23:50,137 | INFO    | train | [hybrid_rel/s2024] epoch 12 | train loss 0.1080 acc 0.9502 F1 0.7552 | val loss 1.4092 acc 0.9494 F1 0.5152
+2026-10-08 13:23:50,137 | INFO    | train | [hybrid_rel/s2024] early stopping at epoch 12 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:23:52,869 | INFO    | experiments | ABLATION Hybrid-rel (+ patient template) seed=2024 val F1 0.5689 | DS2 F1 0.6797
+2026-10-08 13:23:57,592 | INFO    | train | [hybrid_rel+aug/s42] device=cuda augment=True seed=42 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:23:57,592 | INFO    | train | [hybrid_rel+aug/s42] val records (4): 114, 124, 205, 223
+2026-10-08 13:23:57,592 | INFO    | train | [hybrid_rel+aug/s42] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:23:57,592 | INFO    | train | [hybrid_rel+aug/s42] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:23:59,556 | INFO    | train | [hybrid_rel+aug/s42] epoch 01 | train loss 0.6781 acc 0.8192 F1 0.5069 | val loss 0.7685 acc 0.9584 F1 0.5787  *best*
+2026-10-08 13:24:01,341 | INFO    | train | [hybrid_rel+aug/s42] epoch 02 | train loss 0.3264 acc 0.8991 F1 0.6306 | val loss 0.8832 acc 0.9467 F1 0.5004
+2026-10-08 13:24:03,164 | INFO    | train | [hybrid_rel+aug/s42] epoch 03 | train loss 0.2390 acc 0.9092 F1 0.6562 | val loss 0.9557 acc 0.9491 F1 0.4919
+2026-10-08 13:24:04,980 | INFO    | train | [hybrid_rel+aug/s42] epoch 04 | train loss 0.2059 acc 0.9197 F1 0.6786 | val loss 0.8391 acc 0.9568 F1 0.5652
+2026-10-08 13:24:06,871 | INFO    | train | [hybrid_rel+aug/s42] epoch 05 | train loss 0.1895 acc 0.9290 F1 0.7000 | val loss 1.0971 acc 0.9018 F1 0.5322
+2026-10-08 13:24:08,629 | INFO    | train | [hybrid_rel+aug/s42] epoch 06 | train loss 0.1771 acc 0.9282 F1 0.6970 | val loss 1.0356 acc 0.9614 F1 0.5585
+2026-10-08 13:24:10,323 | INFO    | train | [hybrid_rel+aug/s42] epoch 07 | train loss 0.1586 acc 0.9336 F1 0.7133 | val loss 1.0474 acc 0.9264 F1 0.4780
+2026-10-08 13:24:12,028 | INFO    | train | [hybrid_rel+aug/s42] epoch 08 | train loss 0.1434 acc 0.9402 F1 0.7251 | val loss 1.0621 acc 0.9499 F1 0.4992
+2026-10-08 13:24:12,028 | INFO    | train | [hybrid_rel+aug/s42] early stopping at epoch 8 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:24:15,112 | INFO    | experiments | ABLATION Hybrid-rel + augmentation seed=42   val F1 0.5787 | DS2 F1 0.6155
+2026-10-08 13:24:19,983 | INFO    | train | [hybrid_rel+aug/s7] device=cuda augment=True seed=7 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:24:19,984 | INFO    | train | [hybrid_rel+aug/s7] val records (4): 114, 124, 205, 223
+2026-10-08 13:24:19,984 | INFO    | train | [hybrid_rel+aug/s7] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:24:19,984 | INFO    | train | [hybrid_rel+aug/s7] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:24:21,951 | INFO    | train | [hybrid_rel+aug/s7] epoch 01 | train loss 0.6579 acc 0.8046 F1 0.4939 | val loss 0.8145 acc 0.9635 F1 0.6005  *best*
+2026-10-08 13:24:23,863 | INFO    | train | [hybrid_rel+aug/s7] epoch 02 | train loss 0.2863 acc 0.9013 F1 0.6379 | val loss 0.9310 acc 0.9510 F1 0.5251
+2026-10-08 13:24:25,849 | INFO    | train | [hybrid_rel+aug/s7] epoch 03 | train loss 0.2462 acc 0.9068 F1 0.6515 | val loss 1.0451 acc 0.9434 F1 0.4562
+2026-10-08 13:24:28,176 | INFO    | train | [hybrid_rel+aug/s7] epoch 04 | train loss 0.2000 acc 0.9210 F1 0.6820 | val loss 0.8720 acc 0.9581 F1 0.5330
+2026-10-08 13:24:30,023 | INFO    | train | [hybrid_rel+aug/s7] epoch 05 | train loss 0.1749 acc 0.9317 F1 0.7043 | val loss 1.1410 acc 0.8960 F1 0.4888
+2026-10-08 13:24:31,900 | INFO    | train | [hybrid_rel+aug/s7] epoch 06 | train loss 0.1619 acc 0.9301 F1 0.7032 | val loss 1.1112 acc 0.9536 F1 0.5111
+2026-10-08 13:24:33,806 | INFO    | train | [hybrid_rel+aug/s7] epoch 07 | train loss 0.1589 acc 0.9322 F1 0.7072 | val loss 1.4195 acc 0.6965 F1 0.4392
+2026-10-08 13:24:35,556 | INFO    | train | [hybrid_rel+aug/s7] epoch 08 | train loss 0.1346 acc 0.9380 F1 0.7241 | val loss 1.1700 acc 0.9542 F1 0.5100
+2026-10-08 13:24:35,557 | INFO    | train | [hybrid_rel+aug/s7] early stopping at epoch 8 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:24:38,527 | INFO    | experiments | ABLATION Hybrid-rel + augmentation seed=7    val F1 0.6005 | DS2 F1 0.6329
+2026-10-08 13:24:43,346 | INFO    | train | [hybrid_rel+aug/s2024] device=cuda augment=True seed=2024 | train records (18): 101, 106, 108, 109, 112, 115, 116, 118, 119, 122, 201, 203, 207, 208, 209, 215, 220, 230
+2026-10-08 13:24:43,346 | INFO    | train | [hybrid_rel+aug/s2024] val records (4): 114, 124, 205, 223
+2026-10-08 13:24:43,346 | INFO    | train | [hybrid_rel+aug/s2024] train beats=42218 [37860, 824, 3154, 380] | val beats=8751 [7964, 119, 634, 34]
+2026-10-08 13:24:43,347 | INFO    | train | [hybrid_rel+aug/s2024] class weights (N,S,V,F) = [0.27799999713897705, 13.51200008392334, 3.364000082015991, 30.777999877929688]
+2026-10-08 13:24:45,283 | INFO    | train | [hybrid_rel+aug/s2024] epoch 01 | train loss 0.6636 acc 0.8183 F1 0.5260 | val loss 0.8415 acc 0.9451 F1 0.5479  *best*
+2026-10-08 13:24:46,893 | INFO    | train | [hybrid_rel+aug/s2024] epoch 02 | train loss 0.3051 acc 0.8964 F1 0.6307 | val loss 0.9851 acc 0.9398 F1 0.5202
+2026-10-08 13:24:48,549 | INFO    | train | [hybrid_rel+aug/s2024] epoch 03 | train loss 0.2315 acc 0.9105 F1 0.6578 | val loss 0.9740 acc 0.9129 F1 0.5095
+2026-10-08 13:24:50,220 | INFO    | train | [hybrid_rel+aug/s2024] epoch 04 | train loss 0.1918 acc 0.9200 F1 0.6769 | val loss 0.9977 acc 0.9587 F1 0.5787  *best*
+2026-10-08 13:24:51,836 | INFO    | train | [hybrid_rel+aug/s2024] epoch 05 | train loss 0.1855 acc 0.9256 F1 0.6886 | val loss 0.8326 acc 0.9687 F1 0.6126  *best*
+2026-10-08 13:24:53,555 | INFO    | train | [hybrid_rel+aug/s2024] epoch 06 | train loss 0.1742 acc 0.9250 F1 0.6883 | val loss 0.8048 acc 0.9610 F1 0.6032
+2026-10-08 13:24:55,387 | INFO    | train | [hybrid_rel+aug/s2024] epoch 07 | train loss 0.1610 acc 0.9338 F1 0.7115 | val loss 0.8643 acc 0.9631 F1 0.5860
+2026-10-08 13:24:57,092 | INFO    | train | [hybrid_rel+aug/s2024] epoch 08 | train loss 0.1474 acc 0.9364 F1 0.7162 | val loss 1.0709 acc 0.9678 F1 0.5859
+2026-10-08 13:24:58,914 | INFO    | train | [hybrid_rel+aug/s2024] epoch 09 | train loss 0.1357 acc 0.9404 F1 0.7297 | val loss 1.2780 acc 0.9387 F1 0.4579
+2026-10-08 13:25:00,657 | INFO    | train | [hybrid_rel+aug/s2024] epoch 10 | train loss 0.1278 acc 0.9415 F1 0.7296 | val loss 1.4838 acc 0.9521 F1 0.5070
+2026-10-08 13:25:02,547 | INFO    | train | [hybrid_rel+aug/s2024] epoch 11 | train loss 0.1321 acc 0.9442 F1 0.7377 | val loss 1.2180 acc 0.9558 F1 0.5162
+2026-10-08 13:25:04,360 | INFO    | train | [hybrid_rel+aug/s2024] epoch 12 | train loss 0.1180 acc 0.9477 F1 0.7457 | val loss 1.1765 acc 0.9719 F1 0.5989
+2026-10-08 13:25:04,360 | INFO    | train | [hybrid_rel+aug/s2024] early stopping at epoch 12 (no val macro-F1 gain for 7 epochs)
+2026-10-08 13:25:07,202 | INFO    | experiments | ABLATION Hybrid-rel + augmentation seed=2024 val F1 0.6126 | DS2 F1 0.6704
+2026-10-08 13:25:07,229 | INFO    | experiments | Selected by validation macro-F1: Hybrid + augmentation
+                        variant  val_f1_mean  val_f1_std  ds2_f1_mean  ds2_f1_std  ds2_S_recall  ds2_V_recall  ds2_F_recall
+                 CNN (waveform)        0.488       0.021        0.416       0.015         0.342         0.818         0.001
+             CNN + augmentation        0.485       0.023        0.412       0.016         0.184         0.864         0.006
+         Hybrid (waveform + RR)        0.611       0.022        0.620       0.035         0.670         0.933         0.453
+          Hybrid + augmentation        0.615       0.018        0.594       0.007         0.743         0.949         0.122
+Hybrid-rel (+ patient template)        0.598       0.027        0.657       0.041         0.730         0.929         0.430
+      Hybrid-rel + augmentation        0.597       0.017        0.640       0.028         0.806         0.933         0.426
+2026-10-08 13:25:07,589 | INFO    | experiments | Wrote experiments.csv/json and ablation.png

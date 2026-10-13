@@ -1,0 +1,9 @@
+.venv
+.git
+.github
+data/raw
+**/__pycache__
+.pytest_cache
+.ruff_cache
+outputs/parquet/beats_ds1.parquet
+outputs/parquet/beats_ds2.parquet

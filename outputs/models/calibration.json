@@ -1,0 +1,22 @@
+{
+  "fitted_at": "2026-10-13T03:43:14+00:00",
+  "model": "hybrid_rel",
+  "method": "bcts",
+  "temperature": 1.657960510905213,
+  "bias": [
+    2.0893237065432344,
+    -0.9762306149765463,
+    0.2518466984377465,
+    -1.3649397900044347
+  ],
+  "use_calibrated_argmax": false,
+  "alpha": 0.1,
+  "conformal": "Mondrian (class-conditional) split conformal, score = 1 - p_y",
+  "qhat": [
+    0.07930056986048573,
+    0.9905583422100788,
+    0.744182024302807,
+    0.9904369444919222
+  ],
+  "fit_data": "DS1 out-of-fold predictions (5-fold record-grouped CV, final recipe)"
+}
