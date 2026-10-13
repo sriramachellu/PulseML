@@ -1,6 +1,8 @@
-"""PulseML research dashboard: `streamlit run dashboard.py`. Not for clinical diagnosis."""
+"""PulseML research dashboard: `streamlit run app/dashboard.py`. Not for clinical diagnosis."""
 
 import json
+import sys
+from pathlib import Path
 
 import joblib
 import numpy as np
@@ -11,10 +13,12 @@ import streamlit as st
 import torch
 import xgboost as xgb
 
-from src import config
-from src.dataset import template_matrix
-from src.models import apply_calibration, load_cnn, prediction_sets
-from src.preprocess import rr_features
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # `streamlit run` only puts app/ on the path
+
+from src import config  # noqa: E402
+from src.dataset import template_matrix  # noqa: E402
+from src.models import apply_calibration, load_cnn, prediction_sets  # noqa: E402
+from src.preprocess import rr_features  # noqa: E402
 
 BLUE = "#1f5fa8"
 MODEL_COLORS = {"LogReg": "#7f8c9b", "XGBoost": "#e8710a", "CNN": "#8fb3e0", "Hybrid": BLUE}

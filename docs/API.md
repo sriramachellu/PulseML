@@ -1,6 +1,6 @@
 # PulseML API Reference
 
-FastAPI service in [`api.py`](../api.py). Interactive OpenAPI docs are at `http://localhost:8000/docs` while it's running.
+FastAPI service in [`app/api.py`](../app/api.py). Interactive OpenAPI docs are at `http://localhost:8000/docs` while it's running.
 
 > Every response carries `X-Disclaimer: Research demonstration only. Not for clinical use.` and every
 > JSON body from `/predict` includes the same `disclaimer` field.
@@ -8,7 +8,7 @@ FastAPI service in [`api.py`](../api.py). Interactive OpenAPI docs are at `http:
 ## Running
 
 ```bash
-uvicorn api:app --host 0.0.0.0 --port 8000          # local
+uvicorn app.api:app --host 0.0.0.0 --port 8000          # local
 docker compose up api                                # container (port 8000, or $PORT if set)
 ```
 

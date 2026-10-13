@@ -3,7 +3,7 @@
 > ⚠️ **RESEARCH DEMONSTRATION ONLY. NOT FOR CLINICAL DIAGNOSIS.** This is not a medical device and has
 > not been cleared or approved by the FDA or any regulator. Do not use it for patient care.
 
-*Generated automatically by `python -m src.evaluate` on 2026-10-13T03:42:42+00:00.*
+*Generated automatically by `python -m src.evaluate` on 2026-10-13T17:05:57+00:00.*
 Model version `1.0.0` · CNN checkpoint `deb5a42fa9ca` · Hybrid checkpoint `c409c9b505b1`.
 
 ## Model details

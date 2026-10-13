@@ -23,7 +23,7 @@ LOGREG_MODEL = MODELS_DIR / "logreg_best.joblib"
 XGB_MODEL = MODELS_DIR / "xgb_best.joblib"
 TRAINING_METADATA = MODELS_DIR / "training_metadata.json"
 EVAL_METRICS = REPORTS_DIR / "evaluation_metrics.json"
-MODEL_CARD = ROOT_DIR / "model_card.md"
+MODEL_CARD = ROOT_DIR / "docs" / "model_card.md"
 
 # MIT-BIH
 PHYSIONET_DB = "mitdb"

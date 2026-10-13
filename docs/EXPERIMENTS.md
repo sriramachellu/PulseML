@@ -10,7 +10,7 @@ Chronological record of every modelling iteration, including the ones that didn'
 3. DS2 numbers are reported for *every* variant so you can see when validation and test disagree.
 
 Reproduce everything: `python -m src.experiments` (≈15 min on an RTX 3060) and `python -m src.experiments --cv-select` (≈10 min). Raw results are in
-`outputs/reports/experiments.{csv,json}`, `experiments_cv.{csv,json}` and the `*_log*.txt` files.
+`outputs/reports/experiments.{csv,json}`, `experiments_cv.{csv,json}` and the run logs in `outputs/reports/logs/`.
 
 ---
 
